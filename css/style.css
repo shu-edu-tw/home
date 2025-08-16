@@ -1,3 +1,7 @@
+/* =================================== */
+/*   主要樣式表 (style.css)           */
+/* =================================== */
+
 /* Reset and Base Styles */
 * {
     margin: 0;
@@ -14,6 +18,8 @@ body {
     line-height: 1.6;
     color: #333;
     background-color: #fff;
+    /* 為 fixed header 預留空間 */
+    padding-top: 80px; 
 }
 
 .container {
@@ -112,6 +118,13 @@ img {
     left: 0;
     right: 0;
     z-index: 1000;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease, padding 0.3s ease;
+}
+
+.header.scrolled {
+    background-color: #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    padding: 0.5rem 0;
 }
 
 .navbar {
@@ -212,6 +225,8 @@ img {
     display: none;
     flex-direction: column;
     cursor: pointer;
+    background: none;
+    border: none;
 }
 
 .bar {
@@ -225,7 +240,7 @@ img {
 /* Hero Section */
 .hero {
     position: relative;
-    height: 100vh;
+    height: calc(100vh - 80px); /* 扣除 header 高度 */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -463,6 +478,92 @@ img {
     border-bottom-color: #8B1538;
 }
 
+/* Video Sections */
+.main-video-section, .related-videos {
+    padding: 5rem 0;
+}
+.related-videos {
+    background-color: #f8f9fa;
+}
+.video-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.main-video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+}
+.main-video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.video-info {
+    padding: 2rem 0;
+}
+.video-title {
+    color: #8B1538;
+}
+.video-description {
+    color: #666;
+}
+.video-stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 1rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+.videos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+.video-card {
+    background: #fff;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+.video-thumbnail {
+    position: relative;
+    cursor: pointer;
+}
+.video-thumbnail .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    background: rgba(139, 21, 56, 0.8);
+    color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    transition: transform 0.3s ease;
+}
+.video-card:hover .play-button {
+    transform: translate(-50%, -50%) scale(1.1);
+}
+.video-card-content {
+    padding: 1.5rem;
+}
+.video-meta {
+    font-size: 0.9rem;
+    color: #666;
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+
 /* News Section */
 .news {
     padding: 5rem 0;
@@ -668,6 +769,7 @@ img {
 
 .footer-links {
     list-style: none;
+    padding-left: 0;
 }
 
 .footer-links li {
@@ -769,28 +871,388 @@ img {
 
 .fade-in-up {
     animation: fadeInUp 0.6s ease-out;
+    /* 確保動畫執行前元素是隱藏的 */
+    opacity: 0; 
+    animation-fill-mode: forwards;
 }
 
-/* Utility Classes */
-.text-center { text-align: center; }
-.text-left { text-align: left; }
-.text-right { text-align: right; }
 
-.mb-1 { margin-bottom: 0.5rem; }
-.mb-2 { margin-bottom: 1rem; }
-.mb-3 { margin-bottom: 1.5rem; }
-.mb-4 { margin-bottom: 2rem; }
-.mb-5 { margin-bottom: 3rem; }
+/* =================================== */
+/* 響應式設計 (responsive.css)         */
+/* =================================== */
 
-.mt-1 { margin-top: 0.5rem; }
-.mt-2 { margin-top: 1rem; }
-.mt-3 { margin-top: 1.5rem; }
-.mt-4 { margin-top: 2rem; }
-.mt-5 { margin-top: 3rem; }
+/* Large Desktop */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1400px;
+    }
+    
+    .hero-title .title-main {
+        font-size: 4rem;
+    }
+    
+    .hero-title .title-sub {
+        font-size: 1.8rem;
+    }
+}
 
-.p-1 { padding: 0.5rem; }
-.p-2 { padding: 1rem; }
-.p-3 { padding: 1.5rem; }
-.p-4 { padding: 2rem; }
-.p-5 { padding: 3rem; }
+/* Desktop */
+@media (max-width: 1199px) {
+    .container {
+        max-width: 1000px;
+    }
+}
 
+/* Tablet */
+@media (max-width: 991px) {
+    body {
+        /* 在平板尺寸下，header 高度可能不同 */
+        padding-top: 70px; 
+    }
+    .container {
+        padding: 0 15px;
+    }
+    
+    /* Navigation */
+    .nav-toggle {
+        display: flex;
+    }
+    
+    .nav-menu {
+        position: fixed;
+        top: 70px; /* 應與 body 的 padding-top 對應 */
+        left: 0;
+        width: 100%;
+        background-color: white;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+        z-index: 999;
+        max-height: calc(100vh - 70px);
+        overflow-y: auto;
+    }
+    
+    .nav-menu.active {
+        transform: translateX(0);
+    }
+    
+    .nav-list {
+        flex-direction: column;
+        padding: 1rem 0;
+    }
+    
+    .nav-item {
+        margin: 0;
+        border-bottom: 1px solid #eee;
+    }
+    
+    .nav-link {
+        display: block;
+        padding: 1rem 2rem;
+        border-bottom: none;
+    }
+    
+    .dropdown-menu {
+        position: static;
+        opacity: 1;
+        visibility: visible;
+        transform: none;
+        box-shadow: none;
+        background-color: #f8f9fa;
+        margin: 0;
+        border-radius: 0;
+        display: none;
+        padding-left: 1rem; /* 增加縮排 */
+    }
+    
+    .dropdown.active .dropdown-menu {
+        display: block;
+    }
+    
+    .dropdown-menu a {
+        padding: 0.75rem 2rem;
+        border-bottom: none; /* 移除子項目的底線 */
+    }
+    
+    /* Hero Section */
+    .hero {
+        height: calc(100vh - 70px);
+    }
+    .hero-title .title-main {
+        font-size: 2.5rem;
+    }
+    
+    .hero-title .title-sub {
+        font-size: 1.2rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .hero-description {
+        font-size: 1rem;
+    }
+    
+    .hero-buttons {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    .hero-buttons .btn {
+        width: 200px;
+    }
+    
+    /* Grid Adjustments */
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+    
+    .colleges-grid, .videos-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 1.5rem;
+    }
+    
+    .news-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.5rem;
+    }
+    
+    .stats-grid, .video-stats {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+    
+    /* Footer */
+    .footer-content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+    
+    .footer-bottom {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+/* Mobile Large */
+@media (max-width: 767px) {
+    /* Typography */
+    h1 { font-size: 2rem; }
+    h2 { font-size: 1.75rem; }
+    h3 { font-size: 1.25rem; }
+    
+    /* Sections */
+    .features,
+    .colleges,
+    .news,
+    .cta,
+    .main-video-section,
+    .related-videos {
+        padding: 3rem 0;
+    }
+    
+    .stats {
+        padding: 2rem 0;
+    }
+    
+    /* Hero Section */
+    .hero {
+        height: 80vh;
+        min-height: 600px;
+    }
+    
+    .hero-content {
+        padding: 0 15px;
+    }
+    
+    .hero-title .title-main {
+        font-size: 2rem;
+    }
+    
+    .hero-title .title-sub {
+        font-size: 1rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 1rem;
+    }
+    
+    .hero-description {
+        font-size: 0.9rem;
+    }
+    
+    /* Grid Adjustments */
+    .features-grid,
+    .colleges-grid,
+    .news-grid,
+    .videos-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .stats-grid, .video-stats {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .stat-number {
+        font-size: 2.5rem;
+    }
+    
+    /* Footer */
+    .footer {
+        padding: 2rem 0 1rem;
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        text-align: center;
+    }
+    .footer-logo, .footer-social {
+        justify-content: center;
+    }
+    
+    /* CTA Section */
+    .cta-buttons {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .cta-buttons .btn {
+        width: 200px;
+    }
+}
+
+/* Mobile Small */
+@media (max-width: 575px) {
+    .container {
+        padding: 0 10px;
+    }
+    
+    /* Navigation */
+    .navbar {
+        padding: 0.75rem 0;
+    }
+    
+    .logo-text {
+        font-size: 1.2rem;
+    }
+    
+    .nav-link {
+        padding: 0.75rem 1rem;
+        font-size: 0.9rem;
+    }
+    
+    /* Hero Section */
+    .hero {
+        height: 70vh;
+        min-height: 500px;
+    }
+    
+    .hero-title .title-main {
+        font-size: 1.75rem;
+    }
+    
+    .hero-title .title-sub {
+        font-size: 0.9rem;
+    }
+    
+    .hero-subtitle {
+        font-size: 0.9rem;
+    }
+    
+    .hero-description {
+        font-size: 0.85rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .hero-buttons .btn {
+        width: 180px;
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+    
+    /* Typography */
+    h1 { font-size: 1.75rem; }
+    h2 { font-size: 1.5rem; }
+    h3 { font-size: 1.125rem; }
+    
+    .section-header {
+        margin-bottom: 2rem;
+    }
+    
+    .section-subtitle {
+        font-size: 1rem;
+    }
+    
+    /* Cards */
+    .feature-card {
+        padding: 1.5rem;
+    }
+    
+    .college-image,
+    .news-image {
+        height: 180px;
+    }
+    
+    /* Stats */
+    .stat-number {
+        font-size: 2rem;
+    }
+    
+    .stat-label {
+        font-size: 1rem;
+    }
+    
+    /* Back to Top */
+    .back-to-top {
+        width: 45px;
+        height: 45px;
+        bottom: 15px;
+        right: 15px;
+        font-size: 1rem;
+    }
+}
+
+/* Accessibility & Print */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+    }
+}
+
+.skip-link {
+    position: absolute;
+    top: -100px; /* 移到畫面外 */
+    left: 6px;
+    background: #8B1538;
+    color: white;
+    padding: 8px 12px;
+    text-decoration: none;
+    z-index: 1001;
+    border-radius: 4px;
+    transition: top 0.3s ease;
+}
+
+.skip-link:focus {
+    top: 6px; /* 獲得焦點時顯示 */
+}
+
+/* Focus Styles for Accessibility */
+a:focus,
+button:focus,
+.btn:focus,
+.nav-link:focus,
+.social-link:focus,
+.college-link:focus,
+.news-link:focus {
+    outline: 3px solid #005fcc; /* 高對比的藍色 */
+    outline-offset: 2px;
+}```
