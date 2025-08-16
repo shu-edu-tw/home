@@ -42,7 +42,20 @@ function initNavigation() {
     
     // Close mobile menu when clicking on links
     navLinks.forEach(link => {
-        link.addEventListener('click', function() {
+        link.addEventListener('click', function(e) {
+            // Handle dropdown toggle on mobile
+            if (window.innerWidth <= 991) {
+                const parentDropdown = this.closest('.dropdown');
+                if (parentDropdown && this.classList.contains('nav-link')) {
+                    const dropdownMenu = parentDropdown.querySelector('.dropdown-menu');
+                    if (dropdownMenu) {
+                        e.preventDefault();
+                        parentDropdown.classList.toggle('active');
+                        return;
+                    }
+                }
+            }
+            
             if (navMenu.classList.contains('active')) {
                 navMenu.classList.remove('active');
                 navToggle.classList.remove('active');
