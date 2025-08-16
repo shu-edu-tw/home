@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>最新消息 - 世新大學</title>
+    <meta name="description" content="掌握世新大學最新動態，包括學術成果、招生資訊、校園活動、重要公告等最新消息。">
+    <meta name="keywords" content="世新大學,最新消息,校園新聞,學術成果,招生資訊,活動公告">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4N3WXGW3W3"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-4N3WXGW3W3');
+    </script>
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="最新消息 - 世新大學">
+    <meta property="og:description" content="掌握世新大學最新動態與重要資訊。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://a103210095.github.io/shih-hsin-website/pages/news.html">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <div class="nav-brand">
+                    <a href="../index.html" class="logo">
+                        <img src="../images/shu-logo.png" alt="世新大學校徽" class="logo-img">
+                        <span class="logo-text">世新大學</span>
+                    </a>
+                </div>
+                
+                <div class="nav-menu" id="nav-menu">
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="../index.html" class="nav-link">首頁</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="about.html" class="nav-link">關於世新</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="about.html#history">校史沿革</a></li>
+                                <li><a href="about.html#philosophy">辦學理念</a></li>
+                                <li><a href="about.html#emblem">校徽說明</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="academics.html" class="nav-link">學院系所</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="academics.html#journalism">新聞傳播學院</a></li>
+                                <li><a href="academics.html#management">管理學院</a></li>
+                                <li><a href="academics.html#humanities">人文社會學院</a></li>
+                                <li><a href="academics.html#law">法律學院</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="admissions.html" class="nav-link">招生資訊</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="campus-life.html" class="nav-link">校園生活</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="alumni.html" class="nav-link">傑出校友</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="news.html" class="nav-link active">最新消息</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">聯絡我們</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div class="nav-toggle" id="nav-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="page-header-content">
+                <h1 class="page-title">最新消息</h1>
+                <p class="page-subtitle">掌握世新大學最新動態與重要資訊</p>
+                <nav class="breadcrumb">
+                    <a href="../index.html">首頁</a>
+                    <span class="separator">/</span>
+                    <span class="current">最新消息</span>
+                </nav>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Categories -->
+    <section class="news-categories">
+        <div class="container">
+            <div class="categories-filter">
+                <button class="category-btn active" data-category="all">全部消息</button>
+                <button class="category-btn" data-category="academic">學術成果</button>
+                <button class="category-btn" data-category="admission">招生資訊</button>
+                <button class="category-btn" data-category="activity">校園活動</button>
+                <button class="category-btn" data-category="announcement">重要公告</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured News -->
+    <section class="featured-news">
+        <div class="container">
+            <div class="featured-article">
+                <div class="featured-image">
+                    <img src="../images/featured-news.jpg" alt="重點新聞">
+                </div>
+                <div class="featured-content">
+                    <div class="news-meta">
+                        <span class="news-date">2024年8月16日</span>
+                        <span class="news-category">學術成果</span>
+                    </div>
+                    <h2>世新大學AI五哩路計畫榮獲教育部肯定</h2>
+                    <p>世新大學推出的「AI五哩路」計畫，整合人工智慧技術與傳播教育，培育數位時代人才，獲得教育部高度肯定並給予專案補助。此計畫將協助學生掌握AI技術在傳播領域的應用，提升就業競爭力。</p>
+                    <a href="#" class="read-more-btn">閱讀全文</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Grid -->
+    <section class="news-grid-section">
+        <div class="container">
+            <div class="news-grid">
+                <article class="news-card" data-category="academic">
+                    <div class="news-image">
+                        <img src="../images/news-1.jpg" alt="數媒系獲獎">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date">2024年8月14日</span>
+                            <span class="news-category">學術成果</span>
+                        </div>
+                        <h3>世新大學數媒系虛擬製作課程成果《畫報》獲國際大賽殊榮</h3>
+                        <p>世新數媒系「LVS智能攝製暨場景設計實務」課程成果《畫報》獲得國際競賽獎項，展現學生創意與技術實力。</p>
+                        <a href="#" class="news-link">閱讀更多</a>
+                    </div>
+                </article>
+                
+                <article class="news-card" data-category="admission">
+                    <div class="news-image">
+                        <img src="../images/news-2.jpg" alt="招生滿招">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date">2024年8月1日</span>
+                            <span class="news-category">招生資訊</span>
+                        </div>
+                        <h3>114學年度分發入學100%滿招 卓越教學獲肯定</h3>
+                        <p>世新大學114學年度大學分發入學達成100%滿招，顯示學校辦學品質獲得社會肯定。</p>
+                        <a href="#" class="news-link">閱讀更多</a>
+                    </div>
+                </article>
+                
+                <article class="news-card" data-category="activity">
+                    <div class="news-image">
+                        <img src="../images/news-3.jpg" alt="校園活動">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date">2024年7月25日</span>
+                            <span class="news-category">校園活動</span>
+                        </div>
+                        <h3>2024世新大學校慶系列活動圓滿落幕</h3>
+                        <p>為期一週的校慶系列活動包含學術研討會、校友回娘家、文藝表演等，吸引眾多師生校友參與。</p>
+                        <a href="#" class="news-link">閱讀更多</a>
+                    </div>
+                </article>
+                
+                <article class="news-card" data-category="academic">
+                    <div class="news-image">
+                        <img src="../images/news-4.jpg" alt="研究成果">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date">2024年7月20日</span>
+                            <span class="news-category">學術成果</span>
+                        </div>
+                        <h3>新聞系教授研究成果登上國際期刊</h3>
+                        <p>新聞學系教授針對社群媒體對新聞傳播影響的研究，獲得國際知名期刊刊登。</p>
+                        <a href="#" class="news-link">閱讀更多</a>
+                    </div>
+                </article>
+                
+                <article class="news-card" data-category="announcement">
+                    <div class="news-image">
+                        <img src="../images/news-5.jpg" alt="重要公告">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date">2024年7月15日</span>
+                            <span class="news-category">重要公告</span>
+                        </div>
+                        <h3>115學年度研究所招生簡章公告</h3>
+                        <p>115學年度碩士班、博士班招生簡章已公告，歡迎有志深造的同學踴躍報考。</p>
+                        <a href="#" class="news-link">閱讀更多</a>
+                    </div>
+                </article>
+                
+                <article class="news-card" data-category="activity">
+                    <div class="news-image">
+                        <img src="../images/news-6.jpg" alt="國際交流">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date">2024年7月10日</span>
+                            <span class="news-category">校園活動</span>
+                        </div>
+                        <h3>國際學術交流週盛大舉行</h3>
+                        <p>邀請來自亞洲各國的學者專家蒞校演講，促進國際學術交流與合作。</p>
+                        <a href="#" class="news-link">閱讀更多</a>
+                    </div>
+                </article>
+                
+                <article class="news-card" data-category="admission">
+                    <div class="news-image">
+                        <img src="../images/news-7.jpg" alt="獎學金">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date">2024年7月5日</span>
+                            <span class="news-category">招生資訊</span>
+                        </div>
+                        <h3>新設立優秀新生獎學金開放申請</h3>
+                        <p>為鼓勵優秀學生就讀，新設立多項獎學金，最高可獲得全額學費補助。</p>
+                        <a href="#" class="news-link">閱讀更多</a>
+                    </div>
+                </article>
+                
+                <article class="news-card" data-category="academic">
+                    <div class="news-image">
+                        <img src="../images/news-8.jpg" alt="產學合作">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date">2024年6月30日</span>
+                            <span class="news-category">學術成果</span>
+                        </div>
+                        <h3>與知名媒體集團簽署產學合作協議</h3>
+                        <p>世新大學與國內知名媒體集團簽署產學合作協議，提供學生更多實習與就業機會。</p>
+                        <a href="#" class="news-link">閱讀更多</a>
+                    </div>
+                </article>
+                
+                <article class="news-card" data-category="announcement">
+                    <div class="news-image">
+                        <img src="../images/news-9.jpg" alt="設備更新">
+                    </div>
+                    <div class="news-content">
+                        <div class="news-meta">
+                            <span class="news-date">2024年6月25日</span>
+                            <span class="news-category">重要公告</span>
+                        </div>
+                        <h3>全新攝影棚及後製設備啟用</h3>
+                        <p>斥資千萬打造的專業攝影棚及後製設備正式啟用，提供學生最先進的學習環境。</p>
+                        <a href="#" class="news-link">閱讀更多</a>
+                    </div>
+                </article>
+            </div>
+            
+            <!-- Pagination -->
+            <div class="pagination">
+                <button class="page-btn active">1</button>
+                <button class="page-btn">2</button>
+                <button class="page-btn">3</button>
+                <button class="page-btn">4</button>
+                <button class="page-btn">5</button>
+                <button class="page-btn next">下一頁</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Subscription -->
+    <section class="newsletter bg-light">
+        <div class="container">
+            <div class="newsletter-content">
+                <div class="newsletter-info">
+                    <h2>訂閱電子報</h2>
+                    <p>第一時間獲得世新大學最新消息與重要資訊</p>
+                </div>
+                <div class="newsletter-form">
+                    <form class="subscription-form">
+                        <input type="email" placeholder="請輸入您的電子郵件" required>
+                        <button type="submit" class="btn btn-primary">訂閱</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">關注世新大學動態</h2>
+                <p class="cta-description">追蹤我們的社群媒體，掌握最新資訊</p>
+                <div class="social-links">
+                    <a href="#" class="social-btn facebook"><i class="fab fa-facebook"></i> Facebook</a>
+                    <a href="#" class="social-btn youtube"><i class="fab fa-youtube"></i> YouTube</a>
+                    <a href="#" class="social-btn instagram"><i class="fab fa-instagram"></i> Instagram</a>
+                    <a href="#" class="social-btn line"><i class="fab fa-line"></i> LINE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="../images/shu-logo.png" alt="世新大學校徽" class="footer-logo-img">
+                        <span class="footer-logo-text">世新大學</span>
+                    </div>
+                    <p class="footer-description">
+                        德智兼修，手腦並用<br>
+                        培育專業傳播人才的搖籃
+                    </p>
+                    <div class="footer-social">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-line"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">快速連結</h3>
+                    <ul class="footer-links">
+                        <li><a href="../index.html">首頁</a></li>
+                        <li><a href="about.html">關於世新</a></li>
+                        <li><a href="academics.html">學院系所</a></li>
+                        <li><a href="admissions.html">招生資訊</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">學院系所</h3>
+                    <ul class="footer-links">
+                        <li><a href="academics.html#journalism">新聞傳播學院</a></li>
+                        <li><a href="academics.html#management">管理學院</a></li>
+                        <li><a href="academics.html#humanities">人文社會學院</a></li>
+                        <li><a href="academics.html#law">法律學院</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3 class="footer-title">聯絡資訊</h3>
+                    <div class="footer-contact">
+                        <p><i class="fas fa-map-marker-alt"></i> 116台北市文山區木柵路一段17巷1號</p>
+                        <p><i class="fas fa-phone"></i> (02) 2236-8225</p>
+                        <p><i class="fas fa-envelope"></i> pr@mail.shu.edu.tw</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 世新大學 Shih Hsin University. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="../js/main.js"></script>
+    <script>
+        // News category filter
+        document.addEventListener('DOMContentLoaded', function() {
+            const categoryBtns = document.querySelectorAll('.category-btn');
+            const newsCards = document.querySelectorAll('.news-card');
+            
+            categoryBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    const category = this.getAttribute('data-category');
+                    
+                    // Update active button
+                    categoryBtns.forEach(b => b.classList.remove('active'));
+                    this.classList.add('active');
+                    
+                    // Filter news cards
+                    newsCards.forEach(card => {
+                        if (category === 'all' || card.getAttribute('data-category') === category) {
+                            card.style.display = 'block';
+                        } else {
+                            card.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
