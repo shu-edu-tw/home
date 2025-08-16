@@ -1,0 +1,41 @@
+User-agent: *
+Allow: /
+
+# 允許所有搜尋引擎爬取網站內容
+# 特別針對世新大學相關內容進行優化
+
+# 禁止爬取的目錄（如果有的話）
+# Disallow: /admin/
+# Disallow: /private/
+
+# 指向網站地圖
+Sitemap: https://your-username.github.io/shih-hsin-website/sitemap.xml
+
+# 針對特定搜尋引擎的設定
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
+
+# 針對世新大學相關關鍵字的優化
+# 確保重要頁面能被正確索引
+Allow: /pages/about.html
+Allow: /pages/colleges.html
+Allow: /pages/admission.html
+Allow: /pages/news.html
+Allow: /pages/campus-life.html
+Allow: /pages/alumni.html
+Allow: /pages/contact.html
+
+# 允許爬取圖片和CSS/JS文件
+Allow: /images/
+Allow: /css/
+Allow: /js/
+
