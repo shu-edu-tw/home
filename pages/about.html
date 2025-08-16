@@ -18,7 +18,6 @@
     
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/responsive.css">
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -27,6 +26,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    <a href="#main-content" class="skip-link">跳至主要內容</a>
     <!-- Header -->
     <header class="header">
         <nav class="navbar">
@@ -46,9 +46,10 @@
                         <li class="nav-item dropdown">
                             <a href="about.html" class="nav-link active">關於世新</a>
                             <ul class="dropdown-menu">
-                                <li><a href="about.html#history">校史沿革</a></li>
-                                <li><a href="about.html#philosophy">辦學理念</a></li>
-                                <li><a href="about.html#emblem">校徽說明</a></li>
+                                <li><a href="#history">校史沿革</a></li>
+                                <li><a href="#philosophy">辦學理念</a></li>
+                                <li><a href="#campus">校園風光</a></li>
+                                <li><a href="#emblem">校徽說明</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
@@ -93,190 +94,236 @@
         </nav>
     </header>
 
-    <!-- Page Header -->
-    <section class="page-header">
-        <div class="container">
-            <div class="page-header-content">
-                <h1 class="page-title">關於世新</h1>
-                <p class="page-subtitle">德智兼修，手腦並用 - 培育專業傳播人才的搖籃</p>
-                <nav class="breadcrumb">
-                    <a href="../index.html">首頁</a>
-                    <span class="separator">/</span>
-                    <span class="current">關於世新</span>
-                </nav>
+    <main id="main-content">
+        <!-- Page Header -->
+        <section class="page-header" style="background-image: url('../images/campus-overview.jpg');">
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <div class="page-header-content">
+                    <h1 class="page-title">關於世新</h1>
+                    <p class="page-subtitle">走過超過一甲子的歲月，從世界新聞職業學校到今日的世新大學</p>
+                    <nav class="breadcrumb" aria-label="breadcrumb">
+                        <a href="../index.html">首頁</a>
+                        <span class="separator">/</span>
+                        <span class="current">關於世新</span>
+                    </nav>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- History Section -->
-    <section id="history" class="content-section">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">校史沿革</h2>
-                <p class="section-subtitle">從世界新聞職業學校到世新大學的發展歷程</p>
-            </div>
-            
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-year">1956</div>
-                    <div class="timeline-content">
-                        <h3>世界新聞職業學校</h3>
-                        <p>創辦人成舍我先生於民國45年秋，擇定台北木柵溝子口為校址，成立「世界新聞職業學校」，以培養「德智兼修，手腦並用」之新聞傳播人才。同年10月15日開學上課，當時僅有初、高級各一班，學生63人。</p>
-                    </div>
+        <!-- Stats Section (NEW) -->
+        <section class="stats">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title" style="color: white;">大學速覽</h2>
                 </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-year">1960</div>
-                    <div class="timeline-content">
-                        <h3>世界新聞專科學校</h3>
-                        <p>學校規模粗具後，在民國49年改制為「世界新聞專科學校」，學制分三年制及五年制兩種。至79學年度為止，三年制專科共設有8科，五年制專科共設有4科，學生總數為6,055人。</p>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">1956</div>
+                        <div class="stat-label">創校年份</div>
                     </div>
-                </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-year">1991</div>
-                    <div class="timeline-content">
-                        <h3>世界新聞傳播學院</h3>
-                        <p>80年8月，奉教育部核准改制為「世界新聞傳播學院」，初設5系（分為12組），停招三年制、五年制專科。推葉明勳先生為董事長，聘任成嘉玲博士為改制學院後首任校長。</p>
+                    <div class="stat-item">
+                        <div class="stat-number">4</div>
+                        <div class="stat-label">學院</div>
                     </div>
-                </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-year">1997</div>
-                    <div class="timeline-content">
-                        <h3>世新大學</h3>
-                        <p>世新在全體師生共同努力之下，以辦學績效卓著，深獲各界肯定，再度獲准自民國86年8月起改名為「世新大學」，分設新聞傳播學院、管理學院、人文社會學院及法學院等四個學院。</p>
+                    <div class="stat-item">
+                        <div class="stat-number">29</div>
+                        <div class="stat-label">系所總數</div>
                     </div>
-                </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-year">2024</div>
-                    <div class="timeline-content">
-                        <h3>現今規模</h3>
-                        <p>114學年度，本校設有新聞傳播學院、管理學院、人文社會學院及法律學院等4個學院，共19個學系、3個獨立研究所、7個學位學程，學生總人數約1萬1千餘人。</p>
+                    <div class="stat-item">
+                        <div class="stat-number">11,000+</div>
+                        <div class="stat-label">在校生</div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        
+        <!-- History Section -->
+        <section id="history" class="content-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">校史沿革</h2>
+                    <p class="section-subtitle">從一份對新聞人才培育的堅持，到今日亞洲傳播教育的領導品牌</p>
+                </div>
+                
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-year">1956</div>
+                        <div class="timeline-content">
+                            <h3>世界新聞職業學校</h3>
+                            <p>創辦人成舍我先生於台北木柵溝子口創校，以培養「德智兼修，手腦並用」之新聞傳播人才為宗旨。同年10月15日開學，當時僅有初、高級各一班，學生63人。</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-year">1960</div>
+                        <div class="timeline-content">
+                            <h3>世界新聞專科學校</h3>
+                            <p>學校規模初具，改制為「世界新聞專科學校」，學制分為三年制及五年制。此時期為台灣培育了大量新聞專業人才，奠定了在傳播界的深厚基礎。</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-year">1991</div>
+                        <div class="timeline-content">
+                            <h3>世界新聞傳播學院</h3>
+                            <p>奉教育部核准改制為「世界新聞傳播學院」，停招專科，初設5系。聘任成嘉玲博士為改制後首任校長，開啟了世新高等教育的新篇章。</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-year">1997</div>
+                        <div class="timeline-content">
+                            <h3>世新大學</h3>
+                            <p>辦學績效卓著，深獲各界肯定，再度獲准改名為「世新大學」，並分設新聞傳播、管理、人文社會及法律等四大學院，成為一所綜合性大學。</p>
+                        </div>
+                    </div>
+                    
+                    <div class="timeline-item">
+                        <div class="timeline-year">今日</div>
+                        <div class="timeline-content">
+                            <h3>全媒體時代的領航者</h3>
+                            <p>本校設有4大學院，共19個學系、3個獨立研究所、7個學位學程。積極推動數位轉型與AI教學，建置「LVS智能攝製基地」，持續引領台灣傳播教育的未來。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <!-- Philosophy Section -->
-    <section id="philosophy" class="content-section bg-light">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">辦學理念</h2>
-                <p class="section-subtitle">秉持創辦人成舍我先生的教育理想</p>
-            </div>
-            
-            <div class="philosophy-grid">
-                <div class="philosophy-card">
-                    <div class="philosophy-icon">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <h3>校訓精神</h3>
-                    <p>「德智兼修，手腦並用」- 培養品德與智慧並重、理論與實務合一的專業人才</p>
+        <!-- Founder & Philosophy Section -->
+        <section id="philosophy" class="content-section bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">創辦人與辦學理念</h2>
+                    <p class="section-subtitle">承襲成舍我先生的教育理想，以學生為本</p>
                 </div>
-                
-                <div class="philosophy-card">
-                    <div class="philosophy-icon">
-                        <i class="fas fa-heart"></i>
+                <div class="founder-section" style="background: none; padding: 0;">
+                    <div class="founder-content">
+                        <div class="founder-image">
+                            <img src="../images/founder.jpg" alt="創辦人成舍我先生">
+                        </div>
+                        <div class="founder-info">
+                            <h2>創辦人 成舍我先生 (1898-1991)</h2>
+                            <p class="founder-description">
+                                成舍我先生是現代中國新聞事業的開拓者，一生致力於新聞教育與民主政治。他深信「實施民主政治須先健全新聞事業；健全新聞事業需有足夠傳播專才」，此一信念促使他創辦世新，為台灣培育無數頂尖的傳播人才。
+                            </p>
+                            <div class="philosophy-grid" style="grid-template-columns: repeat(2, 1fr); gap: 1rem; margin-top: 1.5rem;">
+                                <div class="feature-card" style="text-align: left; padding: 1rem;">
+                                    <div class="feature-icon" style="margin: 0 0 1rem 0;"><i class="fas fa-graduation-cap"></i></div>
+                                    <h4 class="feature-title">校訓精神</h4>
+                                    <p>「德智兼修，手腦並用」，強調品德與智慧並重、理論與實務合一。</p>
+                                </div>
+                                <div class="feature-card" style="text-align: left; padding: 1rem;">
+                                    <div class="feature-icon" style="margin: 0 0 1rem 0;"><i class="fas fa-heart"></i></div>
+                                    <h4 class="feature-title">辦學原則</h4>
+                                    <p>「學校為學生而辦，學生為讀書而來」，堅持以學生為中心的教育理念。</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <h3>辦學原則</h3>
-                    <p>「學校為學生而辦，學生為讀書而來」- 以學生為中心的教育理念</p>
-                </div>
-                
-                <div class="philosophy-card">
-                    <div class="philosophy-icon">
-                        <i class="fas fa-lightbulb"></i>
-                    </div>
-                    <h3>教育目標</h3>
-                    <p>培育具備專業知識、實務技能與人文素養的現代公民</p>
-                </div>
-                
-                <div class="philosophy-card">
-                    <div class="philosophy-icon">
-                        <i class="fas fa-globe"></i>
-                    </div>
-                    <h3>發展願景</h3>
-                    <p>成為亞洲地區傳播教育的領導品牌，培育全媒體時代的專業人才</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Founder Section -->
-    <section class="founder-section">
-        <div class="container">
-            <div class="founder-content">
-                <div class="founder-image">
-                    <img src="../images/founder.jpg" alt="創辦人成舍我先生">
+        <!-- Campus Scenery Section (NEW) -->
+        <section id="campus" class="colleges">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">校園風光</h2>
+                    <p class="section-subtitle">探索世新大學美麗而獨特的校園景觀</p>
                 </div>
-                <div class="founder-info">
-                    <h2>創辦人 成舍我先生</h2>
-                    <p class="founder-years">1898 - 1991</p>
-                    <p class="founder-description">
-                        成舍我先生是現代中國新聞事業的開拓者，一生致力於新聞教育與民主政治的推動。
-                        他深信「實施民主政治須先健全新聞事業；健全新聞事業需有足夠傳播專才」，
-                        因此創辦世新大學，為台灣培育無數傳播專業人才。更多詳細資訊請參考
-                        <a href="https://www.shu.edu.tw/" target="_blank" rel="noopener">世新大學官網</a>。
-                    </p>
-                    <div class="founder-achievements">
-                        <h3>主要貢獻</h3>
+                <div class="colleges-grid">
+                    <div class="college-card">
+                        <div class="college-image">
+                            <img src="../images/shu-gate.jpg" alt="世新大學校門">
+                        </div>
+                        <div class="college-content">
+                            <h3 class="college-title">山洞口校門</h3>
+                            <p class="college-description">
+                                極具特色的隧道式校門，是每位世新人共同的記憶，象徵著通往知識殿堂的入口。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="college-card">
+                        <div class="college-image">
+                            <img src="../images/shu-building.jpg"
+                                alt="言論廣場與舍我樓">
+                        </div>
+                        <div class="college-content">
+                            <h3 class="college-title">言論廣場與舍我樓</h3>
+                            <p class="college-description">
+                                紀念創辦人成舍我先生的雕像坐落於此，是校園中人文氣息最濃厚的一隅。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="college-card">
+                        <div class="college-image">
+                            <img src="../images/sports-field-night.jpg" alt="夜間的運動場">
+                        </div>
+                        <div class="college-content">
+                            <h3 class="college-title">全新智能運動場</h3>
+                            <p class="college-description">
+                                設有LED燈光系統的現代化運動場地，為學生提供優質的體育活動與休憩空間。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="college-card">
+                        <div class="college-image">
+                            <img src="../images/gym.jpg" alt="體育館健身房">
+                        </div>
+                        <div class="college-content">
+                            <h3 class="college-title">體育館健身房</h3>
+                            <p class="college-description">
+                                設備齊全的健身中心，提供師生完善的運動設施，打造健康活力的校園。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Emblem Section -->
+        <section id="emblem" class="content-section bg-light">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">校徽說明</h2>
+                    <p class="section-subtitle">象徵世新大學的教育理念與精神</p>
+                </div>
+                
+                <div class="emblem-content">
+                    <div class="emblem-image">
+                        <img src="../images/shu-emblem.png" alt="世新大學校徽特寫">
+                    </div>
+                    <div class="emblem-description">
+                        <h3>設計理念</h3>
+                        <p>校徽以「筆」為核心，外繞三個圓環，象徵創辦人成舍我先生以辦報之筆，擴展為教育之筆的理念。同時，「筆」也代表著言論、正義與知識的力量。</p>
+                        
+                        <h3>象徵意涵</h3>
                         <ul>
-                            <li>創辦《立報》、《世界日報》等重要報刊</li>
-                            <li>推動新聞教育，培育傳播人才</li>
-                            <li>倡導新聞自由與民主政治</li>
-                            <li>建立完整的傳播教育體系</li>
+                            <li><strong>鋼筆造型：</strong>代表新聞事業與教育文化的神聖使命。</li>
+                            <li><strong>三個圓環：</strong>代表「德、智、體」三育，以及校訓「德智兼修，手腦並用」的精神。</li>
+                            <li><strong>SHU字樣：</strong>為 Shih Hsin University 的縮寫，象徵學校邁向國際化。</li>
+                            <li><strong>翠谷色系：</strong>深綠色象徵學校位於木柵翠谷，充滿生機與希望。</li>
                         </ul>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Emblem Section -->
-    <section id="emblem" class="content-section">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">校徽說明</h2>
-                <p class="section-subtitle">象徵世新大學的教育理念與精神</p>
-            </div>
-            
-            <div class="emblem-content">
-                <div class="emblem-image">
-                    <img src="../images/shu-logo.png" alt="世新大學校徽">
-                </div>
-                <div class="emblem-description">
-                    <h3>設計理念</h3>
-                    <p>世新大學校徽以圓形為基礎，象徵完整與和諧。中央的「世新」二字採用傳統書法字體，展現深厚的文化底蘊。</p>
-                    
-                    <h3>色彩意義</h3>
-                    <ul>
-                        <li><strong>深紅色：</strong>代表熱情、活力與創新精神</li>
-                        <li><strong>金色：</strong>象徵智慧、榮耀與卓越品質</li>
-                        <li><strong>白色：</strong>表達純潔、誠實與學術自由</li>
-                    </ul>
-                    
-                    <h3>象徵意涵</h3>
-                    <p>校徽整體設計體現了世新大學「德智兼修，手腦並用」的校訓精神，以及培育全方位傳播人才的教育使命。</p>
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 class="cta-title">成為世新的一份子</h2>
+                    <p class="cta-description">傳承成舍我先生的教育理想，在世新實現您的夢想</p>
+                    <div class="cta-buttons">
+                        <a href="admissions.html" class="btn btn-primary">立即申請</a>
+                        <a href="contact.html" class="btn btn-secondary">聯絡我們</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-
-    <!-- CTA Section -->
-    <section class="cta">
-        <div class="container">
-            <div class="cta-content">
-                <h2 class="cta-title">加入世新大家庭</h2>
-                <p class="cta-description">傳承成舍我先生的教育理想，在世新實現您的夢想</p>
-                <div class="cta-buttons">
-                    <a href="admissions.html" class="btn btn-primary">立即申請</a>
-                    <a href="contact.html" class="btn btn-secondary">聯絡我們</a>
-                </div>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
@@ -292,10 +339,10 @@
                         培育專業傳播人才的搖籃
                     </p>
                     <div class="footer-social">
-                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-line"></i></a>
+                        <a href="https://www.facebook.com/ShihHsinU" target="_blank" rel="noopener" class="social-link" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.youtube.com/c/ShihHsinU" target="_blank" rel="noopener" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/shih.hsin.u" target="_blank" rel="noopener" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="Line"><i class="fab fa-line"></i></a>
                     </div>
                 </div>
                 
@@ -310,33 +357,51 @@
                 </div>
                 
                 <div class="footer-section">
-                    <h3 class="footer-title">學院系所</h3>
+                    <h3 class="footer-title">相關網站</h3>
                     <ul class="footer-links">
-                        <li><a href="academics.html#journalism">新聞傳播學院</a></li>
-                        <li><a href="academics.html#management">管理學院</a></li>
-                        <li><a href="academics.html#humanities">人文社會學院</a></li>
-                        <li><a href="academics.html#law">法律學院</a></li>
+                        <li><a href="https://www.shu.edu.tw/" target="_blank" rel="noopener">世新大學官網</a></li>
+                        <li><a href="https://osa.shu.edu.tw/" target="_blank" rel="noopener">學務處</a></li>
+                        <li><a href="https://lib.shu.edu.tw/" target="_blank" rel="noopener">圖書館</a></li>
+                        <li><a href="https://cc.shu.edu.tw/" target="_blank" rel="noopener">資訊中心</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-section">
                     <h3 class="footer-title">聯絡資訊</h3>
                     <div class="footer-contact">
-                        <p><i class="fas fa-map-marker-alt"></i> 116台北市文山區木柵路一段17巷1號</p>
-                        <p><i class="fas fa-phone"></i> (02) 2236-8225</p>
-                        <p><i class="fas fa-envelope"></i> pr@mail.shu.edu.tw</p>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>116台北市文山區木柵路一段17巷1號</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>(02) 2236-8225</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>pr@mail.shu.edu.tw</span>
+                        </div>
                     </div>
                 </div>
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; 2024 世新大學 Shih Hsin University. All rights reserved.</p>
+                 <div class="footer-copyright">
+                    <p>&copy; 2024 世新大學資訊網. All rights reserved. | 本網站為教育用途建置</p>
+                </div>
+                <div class="footer-links-bottom">
+                    <a href="#">隱私政策</a>
+                    <a href="#">使用條款</a>
+                </div>
             </div>
         </div>
     </footer>
+    
+    <button id="backToTop" class="back-to-top" aria-label="回到頂部">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
     <!-- JavaScript -->
     <script src="../js/main.js"></script>
 </body>
 </html>
-
