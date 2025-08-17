@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>校園生活 - 世新大學</title>
-    <meta name="description" content="世新大學提供豐富多元的校園生活，包括學生社團、體育活動、住宿服務、餐飲設施等，讓學生在學習之餘享受精彩的大學生活。">
-    <meta name="keywords" content="世新大學,校園生活,學生社團,宿舍,餐廳,體育設施,圖書館">
+    <meta name="description" content="探索世新大學豐富多彩的校園生活！從超過百個學生社團、年度精彩活動，到舒適的住宿環境、頂尖的體育與學習設施，你的大學生活將充滿無限可能。">
+    <meta name="keywords" content="世新大學,校園生活,學生社團,宿舍,餐廳,體育設施,圖書館,LVS,年度活動,迎新">
     
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="校園生活 - 世新大學">
-    <meta property="og:description" content="豐富多元的校園生活，讓學生在世新享受精彩的大學時光。">
+    <meta property="og:description" content="豐富多元的校園生活，讓你在世新不僅學到專業，更能活出精彩。">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://a103210095.github.io/shih-hsin-website/pages/campus-life.html">
+    <meta property="og:image" content="https://a103210095.github.io/shih-hsin-website/images/Banner.jpg">
     
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
     
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/responsive.css">
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    <a href="#main-content" class="skip-link">跳至主要內容</a>
     <!-- Header -->
     <header class="header">
         <nav class="navbar">
@@ -54,10 +55,10 @@
                         <li class="nav-item dropdown">
                             <a href="academics.html" class="nav-link">學院系所</a>
                             <ul class="dropdown-menu">
-                                <li><a href="https://cjc.shu.edu.tw/" target="_blank" rel="noopener">新聞傳播學院</a></li>
-                                <li><a href="https://smgmt.wp.shu.edu.tw/" target="_blank" rel="noopener">管理學院</a></li>
-                                <li><a href="https://chss.wp.shu.edu.tw/" target="_blank" rel="noopener">人文社會學院</a></li>
-                                <li><a href="https://lawsch.wp.shu.edu.tw/" target="_blank" rel="noopener">法律學院</a></li>
+                                <li><a href="academics.html#journalism">新聞傳播學院</a></li>
+                                <li><a href="academics.html#management">管理學院</a></li>
+                                <li><a href="academics.html#humanities">人文社會學院</a></li>
+                                <li><a href="academics.html#law">法律學院</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -93,337 +94,280 @@
         </nav>
     </header>
 
-    <!-- Page Header -->
-    <section class="page-header">
-        <div class="container">
-            <div class="page-header-content">
-                <h1 class="page-title">校園生活</h1>
-                <p class="page-subtitle">豐富多元的校園體驗，精彩的大學時光</p>
-                <nav class="breadcrumb">
-                    <a href="../index.html">首頁</a>
-                    <span class="separator">/</span>
-                    <span class="current">校園生活</span>
-                </nav>
+    <main id="main-content">
+        <!-- Page Header -->
+        <section class="hero" style="height: 60vh; min-height: 450px;">
+             <div class="hero-background" style="background-image: url('../images/Banner.jpg'); background-size: cover; background-position: center center;">
+                <div class="hero-overlay"></div>
             </div>
-        </div>
-    </section>
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="title-main" style="font-size: 3.5rem;">校園生活</span>
+                    </h1>
+                    <p class="hero-subtitle" style="font-size: 1.5rem;">大學不只課業，更是探索自我、綻放光芒的黃金時代</p>
+                    <nav aria-label="breadcrumb" style="color: white; margin-top: 1rem;">
+                        <a href="../index.html" style="color: white; text-decoration: none; font-weight: 500;">首頁</a>
+                        <span class="separator" style="margin: 0 0.5rem;"> / </span>
+                        <span>校園生活</span>
+                    </nav>
+                </div>
+            </div>
+        </section>
 
-    <!-- Campus Facilities -->
-    <section class="campus-facilities">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">校園設施</h2>
-                <p class="section-subtitle">完善的學習與生活環境</p>
-            </div>
-            
-            <div class="facilities-grid">
-                <div class="facility-card">
-                    <div class="facility-image">
-                        <img src="../images/library.jpg" alt="圖書館">
-                    </div>
-                    <div class="facility-content">
-                        <h3>圖書館</h3>
-                        <p>現代化的圖書館設施，提供豐富的學術資源與舒適的閱讀環境，支援學生學習與研究需求。</p>
-                        <ul>
-                            <li>藏書超過50萬冊</li>
-                            <li>電子資源豐富</li>
-                            <li>24小時自習室</li>
-                            <li>多媒體視聽設備</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="facility-card">
-                    <div class="facility-image">
-                        <img src="../images/sports-center.jpg" alt="體育中心">
-                    </div>
-                    <div class="facility-content">
-                        <h3>體育中心</h3>
-                        <p>完善的體育設施，包括籃球場、羽球場、健身房等，促進學生身心健康發展。</p>
-                        <ul>
-                            <li>室內體育館</li>
-                            <li>健身房設備</li>
-                            <li>游泳池</li>
-                            <li>戶外運動場</li>
-                        </ul>
-                    </div>
-                </div>
-                
-                <div class="facility-card">
-                    <div class="facility-image">
-                        <img src="../images/student-center.jpg" alt="學生活動中心">
-                    </div>
-                    <div class="facility-content">
-                        <h3>學生活動中心</h3>
-                        <p>學生社團活動的重要場所，提供多功能空間供學生舉辦各類活動。</p>
-                        <ul>
-                            <li>多功能會議室</li>
-                            <li>社團辦公室</li>
-                            <li>表演廳</li>
-                            <li>休閒娛樂設施</li>
-                        </ul>
-                    </div>
+        <!-- Intro Section -->
+        <section style="padding: 5rem 0;">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">你的大學生活，理應多采多姿</h2>
+                    <p class="section-subtitle" style="max-width: 800px;">
+                        在世新，我們深信學習不僅僅發生在課堂。從揮灑汗水的運動場、激盪創意的社團辦公室，到溫馨如家的宿舍，校園的每一個角落都是你成長的養分。我們提供最完善的設施、最豐富的活動與最貼心的服務，旨在讓你無後顧之憂地探索興趣、結交摯友、拓展視野，創造一段畢生難忘的大學回憶。
+                    </p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Student Clubs -->
-    <section class="student-clubs bg-light">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">學生社團</h2>
-                <p class="section-subtitle">多元社團活動，豐富校園生活</p>
-            </div>
-            
-            <div class="clubs-categories">
-                <div class="club-category">
-                    <div class="category-icon">
-                        <i class="fas fa-music"></i>
-                    </div>
-                    <h3>藝文性社團</h3>
-                    <p>培養藝術涵養與創作能力</p>
-                    <ul>
-                        <li>管樂社</li>
-                        <li>吉他社</li>
-                        <li>戲劇社</li>
-                        <li>攝影社</li>
-                        <li>美術社</li>
-                    </ul>
-                </div>
-                
-                <div class="club-category">
-                    <div class="category-icon">
-                        <i class="fas fa-running"></i>
-                    </div>
-                    <h3>體育性社團</h3>
-                    <p>促進身心健康與團隊合作</p>
-                    <ul>
-                        <li>籃球社</li>
-                        <li>排球社</li>
-                        <li>羽球社</li>
-                        <li>桌球社</li>
-                        <li>游泳社</li>
-                    </ul>
-                </div>
-                
-                <div class="club-category">
-                    <div class="category-icon">
-                        <i class="fas fa-handshake"></i>
-                    </div>
-                    <h3>服務性社團</h3>
-                    <p>培養社會關懷與服務精神</p>
-                    <ul>
-                        <li>慈青社</li>
-                        <li>志工社</li>
-                        <li>環保社</li>
-                        <li>愛心社</li>
-                        <li>國際志工社</li>
-                    </ul>
-                </div>
-                
-                <div class="club-category">
-                    <div class="category-icon">
-                        <i class="fas fa-laptop-code"></i>
-                    </div>
-                    <h3>學術性社團</h3>
-                    <p>深化專業知識與學術研究</p>
-                    <ul>
-                        <li>新聞研習社</li>
-                        <li>廣電研習社</li>
-                        <li>程式設計社</li>
-                        <li>辯論社</li>
-                        <li>英語會話社</li>
-                    </ul>
+        <!-- Quick Navigation -->
+        <section style="padding: 3rem 0; background-color: #f8f9fa; text-align: center;">
+            <div class="container">
+                <h3 style="margin-bottom: 1.5rem; color: #333;">快速導覽</h3>
+                <div class="hero-buttons">
+                    <a href="#student-clubs" class="btn btn-secondary">學生社團</a>
+                    <a href="#annual-events" class="btn btn-secondary">年度盛事</a>
+                    <a href="#living-services" class="btn btn-secondary">生活服務</a>
+                    <a href="#learning-resources" class="btn btn-secondary">學習資源</a>
+                    <a href="#sports-health" class="btn btn-secondary">體育健康</a>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Dormitory -->
-    <section class="dormitory">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">住宿服務</h2>
-                <p class="section-subtitle">安全舒適的住宿環境</p>
+        <!-- Student Clubs -->
+        <section id="student-clubs" class="features" style="padding: 5rem 0;">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">學生社團：找到你的歸屬感</h2>
+                    <p class="section-subtitle">超過百個學生社團，涵蓋七大屬性，總有一個能點燃你的熱情！</p>
+                </div>
+                <div class="feature-card" style="max-width: 900px; margin: -2rem auto 4rem auto; text-align: center;">
+                    <img src="../images/club-fair.jpg" alt="社團博覽會上，各社團攤位前人頭攢動，氣氛熱烈" style="width: 100%; border-radius: 12px; margin-bottom: 1.5rem;">
+                    <p class="feature-description">每年開學季的「社團博覽會」是校園最熱鬧的活動之一。在這裡，你可以親身體驗各社團的獨特魅力，找到志同道合的夥伴，開啟大學生活的全新篇章。</p>
+                </div>
+
+                <div class="features-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+                    <div class="college-card" style="background-color: #f8f9fa;">
+                        <div class="college-content">
+                            <div class="feature-icon" style="margin-left: 0;"><i class="fas fa-sitemap"></i></div>
+                            <h4 class="college-title">自治性社團</h4>
+                            <p class="college-description">學生權益的捍衛者，校園民主的實踐家。如：學生會、系學會、畢聯會等。</p>
+                        </div>
+                    </div>
+                    <div class="college-card" style="background-color: #f8f9fa;">
+                        <div class="college-content">
+                            <div class="feature-icon" style="margin-left: 0;"><i class="fas fa-book"></i></div>
+                            <h4 class="college-title">學術性社團</h4>
+                            <p class="college-description">課堂知識的延伸，專業領域的探索。如：新聞人報社、廣告人俱樂部、法律服務社等。</p>
+                        </div>
+                    </div>
+                    <div class="college-card" style="background-color: #f8f9fa;">
+                        <div class="college-content">
+                            <div class="feature-icon" style="margin-left: 0;"><i class="fas fa-guitar"></i></div>
+                            <h4 class="college-title">康樂性社團</h4>
+                            <p class="college-description">釋放壓力，展現才華的最佳舞台。如：吉他社、熱舞社、合唱團等。</p>
+                        </div>
+                    </div>
+                    <div class="college-card" style="background-color: #f8f9fa;">
+                        <div class="college-content">
+                            <div class="feature-icon" style="margin-left: 0;"><i class="fas fa-theater-masks"></i></div>
+                            <h4 class="college-title">藝文性社團</h4>
+                            <p class="college-description">培養美感，陶冶性情的藝術天地。如：話劇社、攝影社、書法社、電影欣賞社等。</p>
+                        </div>
+                    </div>
+                    <div class="college-card" style="background-color: #f8f9fa;">
+                        <div class="college-content">
+                            <div class="feature-icon" style="margin-left: 0;"><i class="fas fa-hands-helping"></i></div>
+                            <h4 class="college-title">服務性社團</h4>
+                            <p class="college-description">將愛與關懷散播到校園及社會的角落。如：親善團、羅浮群、慈濟青年社等。</p>
+                        </div>
+                    </div>
+                    <div class="college-card" style="background-color: #f8f9fa;">
+                        <div class="college-content">
+                            <div class="feature-icon" style="margin-left: 0;"><i class="fas fa-basketball-ball"></i></div>
+                            <h4 class="college-title">體育性社團</h4>
+                            <p class="college-description">揮灑汗水，鍛鍊體魄，培養團隊精神。如：籃球社、排球社、劍道社、龍舟隊等。</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            
-            <div class="dormitory-content">
-                <div class="dormitory-info">
-                    <h3>宿舍特色</h3>
-                    <p>世新大學提供現代化的學生宿舍，營造如家般溫馨的住宿環境，讓學生能夠專心學習，享受充實的大學生活。</p>
-                    
-                    <div class="dormitory-features">
-                        <div class="feature-item">
-                            <i class="fas fa-shield-alt"></i>
-                            <div>
-                                <h4>安全管理</h4>
-                                <p>24小時門禁管制，確保住宿安全</p>
-                            </div>
+        </section>
+
+        <!-- Annual Events -->
+        <section id="annual-events" class="news">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">年度盛事：我們的共同記憶</h2>
+                    <p class="section-subtitle">從相遇到別離，世新的四季充滿了值得珍藏的精彩時刻</p>
+                </div>
+                <div class="news-grid" style="grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));">
+                    <article class="news-card">
+                        <div class="news-image"><img src="../images/orientation-camp.jpg" alt="新生們在迎新營隊中興奮地參與團體活動"></div>
+                        <div class="news-content">
+                            <div class="news-meta"><span class="news-category">秋季｜九月</span></div>
+                            <h3 class="news-title">新生營隊 & 迎新演唱會</h3>
+                            <p class="news-excerpt">由各系學會精心策劃的迎新營隊，是新生們破冰、認識夥伴的最佳起點。緊接而來的迎新演唱會，更邀請知名藝人與全校新生同歡。</p>
                         </div>
-                        
-                        <div class="feature-item">
-                            <i class="fas fa-wifi"></i>
-                            <div>
-                                <h4>網路設備</h4>
-                                <p>高速無線網路，滿足學習需求</p>
-                            </div>
+                    </article>
+                    <article class="news-card">
+                        <div class="news-image"><img src="../images/anniversary.jpg" alt="世新大學校慶典禮上，師生齊聚一堂"></div>
+                        <div class="news-content">
+                            <div class="news-meta"><span class="news-category">秋季｜十月</span></div>
+                            <h3 class="news-title">校慶系列活動</h3>
+                            <p class="news-excerpt">校慶是世新最重要的慶典！系列活動包含學術研討會、園遊會、校友回娘家以及盛大的校慶晚會，凝聚所有世新人的向心力。</p>
                         </div>
-                        
-                        <div class="feature-item">
-                            <i class="fas fa-snowflake"></i>
-                            <div>
-                                <h4>空調設備</h4>
-                                <p>冷暖空調系統，四季舒適宜人</p>
-                            </div>
+                    </article>
+                    <article class="news-card">
+                        <div class="news-image"><img src="../images/graduation.jpg" alt="畢業生們在畢業典禮上將學位帽拋向空中"></div>
+                        <div class="news-content">
+                            <div class="news-meta"><span class="news-category">夏季｜六月</span></div>
+                            <h3 class="news-title">畢業典禮</h3>
+                            <p class="news-excerpt">這是大學生涯最重要的一天。在師長與親友的祝福下，畢業生們將帶著滿滿的回憶與知識，自信地邁向人生的下一段旅程。</p>
                         </div>
-                        
-                        <div class="feature-item">
-                            <i class="fas fa-utensils"></i>
-                            <div>
-                                <h4>餐飲便利</h4>
-                                <p>鄰近餐廳與便利商店</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Living Services -->
+        <section id="living-services" class="features" style="padding: 5rem 0;">
+             <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">生活服務：讓你安心學習</h2>
+                    <p class="section-subtitle">從住宿到餐飲，我們提供全方位的支持</p>
+                </div>
+                <!-- Dormitory -->
+                <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 3rem; margin-bottom: 4rem;">
+                    <div style="flex: 1 1 400px;">
+                        <img src="../images/dormitory.jpg" alt="世新大學宿舍內部，書桌與床位整潔明亮" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.1);">
+                    </div>
+                    <div style="flex: 2 1 400px;">
+                        <h3 class="section-title" style="text-align: left;">學生宿舍：你在台北的第二個家</h3>
+                        <p>我們提供安全、舒適、便利的住宿環境，讓離家求學的你也能感受到家的溫暖。宿舍不僅是休息的地方，更是結交跨系朋友、學習獨立生活的最佳場域。</p>
+                        <div class="features-grid" style="grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1.5rem;">
+                            <div class="feature-card" style="text-align: left; padding: 1rem; box-shadow: none; background-color: #f8f9fa;">
+                                <h4 class="feature-title" style="font-size: 1.1rem; margin-bottom: 0.5rem;"><i class="fas fa-shield-alt text-primary"></i> 24小時保全門禁</h4>
+                                <p class="feature-description" style="font-size: 0.9rem; line-height: 1.6;">設有全天候警衛與刷卡門禁系統，保障住宿安全。</p>
+                            </div>
+                             <div class="feature-card" style="text-align: left; padding: 1rem; box-shadow: none; background-color: #f8f9fa;">
+                                <h4 class="feature-title" style="font-size: 1.1rem; margin-bottom: 0.5rem;"><i class="fas fa-wifi text-primary"></i> 高速學術網路</h4>
+                                <p class="feature-description" style="font-size: 0.9rem; line-height: 1.6;">宿舍內提供免費高速Wi-Fi，滿足學習與娛樂需求。</p>
+                            </div>
+                             <div class="feature-card" style="text-align: left; padding: 1rem; box-shadow: none; background-color: #f8f9fa;">
+                                <h4 class="feature-title" style="font-size: 1.1rem; margin-bottom: 0.5rem;"><i class="fas fa-user-friends text-primary"></i> 宿舍社監輔導</h4>
+                                <p class="feature-description" style="font-size: 0.9rem; line-height: 1.6;">由學長姐擔任社監，協助新生適應團體生活。</p>
+                            </div>
+                             <div class="feature-card" style="text-align: left; padding: 1rem; box-shadow: none; background-color: #f8f9fa;">
+                                <h4 class="feature-title" style="font-size: 1.1rem; margin-bottom: 0.5rem;"><i class="fas fa-couch text-primary"></i> 公共休憩空間</h4>
+                                <p class="feature-description" style="font-size: 0.9rem; line-height: 1.6;">交誼廳、廚房、洗衣間等公共設施一應俱全。</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                
-                <div class="dormitory-image">
-                    <img src="../images/dormitory.jpg" alt="學生宿舍">
-                </div>
-            </div>
-            
-            <div class="room-types">
-                <h3>房型介紹</h3>
-                <div class="room-grid">
-                    <div class="room-card">
-                        <h4>雙人房</h4>
-                        <p>適合兩人共住，空間寬敞舒適</p>
-                        <div class="room-price">NT$ 15,000/學期</div>
-                    </div>
-                    
-                    <div class="room-card">
-                        <h4>四人房</h4>
-                        <p>經濟實惠，培養團體生活能力</p>
-                        <div class="room-price">NT$ 12,000/學期</div>
-                    </div>
-                    
-                    <div class="room-card">
-                        <h4>套房</h4>
-                        <p>獨立衛浴，享受私人空間</p>
-                        <div class="room-price">NT$ 20,000/學期</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
-    <!-- Dining -->
-    <section class="dining bg-light">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">餐飲服務</h2>
-                <p class="section-subtitle">多元美食選擇，滿足味蕾需求</p>
-            </div>
-            
-            <div class="dining-options">
-                <div class="dining-card">
-                    <div class="dining-icon">
-                        <i class="fas fa-utensils"></i>
-                    </div>
-                    <h3>學生餐廳</h3>
-                    <p>提供經濟實惠的中式、西式餐點，營養均衡，價格親民</p>
-                    <div class="dining-hours">營業時間：07:00-20:00</div>
+                <!-- Dining -->
+                <div class="section-header">
+                    <h3 class="section-title">校園美食地圖</h3>
                 </div>
-                
-                <div class="dining-card">
-                    <div class="dining-icon">
-                        <i class="fas fa-coffee"></i>
+                <div class="colleges-grid">
+                    <div class="college-card">
+                        <div class="college-content">
+                            <h4 class="college-title">校內學生餐廳</h4>
+                            <p class="college-description">位於教學大樓內，提供自助餐、麵食、輕食等多樣化選擇，是省時、經濟、衛生的最佳選擇。</p>
+                        </div>
                     </div>
-                    <h3>咖啡廳</h3>
-                    <p>舒適的用餐環境，提供咖啡、輕食與甜點</p>
-                    <div class="dining-hours">營業時間：08:00-18:00</div>
-                </div>
-                
-                <div class="dining-card">
-                    <div class="dining-icon">
-                        <i class="fas fa-store"></i>
+                    <div class="college-card">
+                        <div class="college-content">
+                            <h4 class="college-title">校門口美食街</h4>
+                            <p class="college-description">從早餐店、便當店到手搖飲，校門口周邊聚集了數十家餐廳，是學生的主要覓食區。</p>
+                        </div>
                     </div>
-                    <h3>便利商店</h3>
-                    <p>24小時營業，提供日常用品與即食商品</p>
-                    <div class="dining-hours">營業時間：24小時</div>
-                </div>
-                
-                <div class="dining-card">
-                    <div class="dining-icon">
-                        <i class="fas fa-map-marker-alt"></i>
+                    <div class="college-card">
+                        <div class="college-content">
+                            <h4 class="college-title">景美夜市</h4>
+                            <p class="college-description">搭乘公車或捷運約10分鐘即可抵達。這裡有各式臺灣道地小吃，是與朋友聚餐、打牙祭的好去處。</p>
+                        </div>
                     </div>
-                    <h3>周邊美食</h3>
-                    <p>校園周邊餐廳林立，各式料理應有盡有</p>
-                    <div class="dining-hours">多元選擇</div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Events -->
-    <section class="campus-events">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">校園活動</h2>
-                <p class="section-subtitle">精彩活動不間斷，豐富大學生活</p>
-            </div>
-            
-            <div class="events-grid">
-                <div class="event-card">
-                    <div class="event-image">
-                        <img src="../images/orientation.jpg" alt="新生迎新">
-                    </div>
-                    <div class="event-content">
-                        <h3>新生迎新活動</h3>
-                        <p>每年9月舉辦盛大的新生迎新活動，幫助新生快速融入校園生活</p>
-                        <div class="event-date">每年9月</div>
-                    </div>
+        <!-- Learning Resources -->
+        <section id="learning-resources" class="news">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">學習資源：你的神兵利器</h2>
+                    <p class="section-subtitle">我們提供最頂尖的軟硬體資源，助你實現所有瘋狂的創意</p>
                 </div>
-                
-                <div class="event-card">
-                    <div class="event-image">
-                        <img src="../images/festival.jpg" alt="校慶活動">
-                    </div>
-                    <div class="event-content">
-                        <h3>校慶慶祝活動</h3>
-                        <p>慶祝世新大學創校週年，舉辦各類慶祝活動與表演</p>
-                        <div class="event-date">每年10月</div>
-                    </div>
-                </div>
-                
-                <div class="event-card">
-                    <div class="event-image">
-                        <img src="../images/graduation.jpg" alt="畢業典禮">
-                    </div>
-                    <div class="event-content">
-                        <h3>畢業典禮</h3>
-                        <p>隆重的畢業典禮，見證學生完成學業的重要時刻</p>
-                        <div class="event-date">每年6月</div>
-                    </div>
+                <div class="news-grid" style="grid-template-columns: 1fr 1fr;">
+                    <article class="news-card">
+                        <div class="news-image"><img src="../images/library-reading.jpg" alt="學生在世新大學圖書館明亮的閱覽區中專心讀書"></div>
+                        <div class="news-content">
+                            <h3 class="news-title">圖書館：知識的海洋</h3>
+                            <p class="news-excerpt">館藏超過50萬冊中外文圖書，並擁有豐富的電子期刊、資料庫與多媒體資源。館內設有個人研究室、團體討論室與24小時開放的自習空間，是世新人課後最常駐足的地方。</p>
+                        </div>
+                    </article>
+                    <article class="news-card">
+                        <div class="news-image"><img src="../images/lvs-studio.jpg" alt="學生在LVS智能攝製基地操作專業的攝影與燈光設備"></div>
+                        <div class="news-content">
+                            <h3 class="news-title">LVS智能攝製基地：亞洲頂尖</h3>
+                            <p class="news-excerpt">斥資上億打造，與好萊塢同步的虛擬攝影棚。結合LED牆、即時渲染與動作捕捉技術，讓學生在校內就能製作出電影級的特效畫面，是培育數位影視人才的秘密武器。</p>
+                        </div>
+                    </article>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        
+        <!-- Sports & Health -->
+        <section id="sports-health" class="features" style="padding: 5rem 0;">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">體育健康：打造強健體魄</h2>
+                    <p class="section-subtitle">健康的身體是實現夢想的基礎</p>
+                </div>
+                <div style="display: flex; flex-wrap: wrap-reverse; align-items: center; gap: 3rem;">
+                    <div style="flex: 2 1 400px;">
+                        <h3 class="section-title" style="text-align: left;">頂尖運動設施</h3>
+                        <p>世新大學深知運動對學生的重要性，不斷升級校園體育設施，提供多元且專業的運動場地，鼓勵學生在課業之餘，養成規律運動的好習慣。</p>
+                        <div class="news-grid" style="grid-template-columns: 1fr; gap: 1rem; margin-top: 1.5rem;">
+                             <div class="feature-card" style="text-align: left; padding: 1rem;">
+                                <h4 class="feature-title" style="font-size: 1.1rem; margin-bottom: 0.5rem;"><i class="fas fa-running text-primary"></i> LED智能操場</h4>
+                                <p class="feature-description" style="font-size: 0.9rem; line-height: 1.6;">符合國際田徑總會(IAAF)認證的全新跑道，搭配夜間LED燈光，提供最舒適安全的運動環境。</p>
+                            </div>
+                             <div class="feature-card" style="text-align: left; padding: 1rem;">
+                                <h4 class="feature-title" style="font-size: 1.1rem; margin-bottom: 0.5rem;"><i class="fas fa-dumbbell text-primary"></i> 體適能中心 (健身房)</h4>
+                                <p class="feature-description" style="font-size: 0.9rem; line-height: 1.6;">引進專業級重訓與有氧器材，並有專業教練指導，是學生鍛鍊體魄的熱門場所。</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="flex: 1 1 400px;">
+                        <img src="../images/sports-field.jpg" alt="世新大學全新鋪設的藍色智能操場與網球場" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.1);">
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <!-- CTA Section -->
-    <section class="cta">
-        <div class="container">
-            <div class="cta-content">
-                <h2 class="cta-title">體驗精彩的校園生活</h2>
-                <p class="cta-description">加入世新大學，享受豐富多元的大學時光</p>
-                <div class="cta-buttons">
-                    <a href="admissions.html" class="btn btn-primary">立即申請</a>
-                    <a href="contact.html" class="btn btn-secondary">聯絡我們</a>
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 class="cta-title">準備好體驗精彩的大學生活了嗎？</h2>
+                    <p class="cta-description">你的黃金四年，將在世新綻放最耀眼的光芒。立即申請，加入我們！</p>
+                    <div class="cta-buttons">
+                        <a href="admissions.html" class="btn btn-primary">查看入學管道</a>
+                        <a href="contact.html" class="btn btn-secondary">聯絡招生組</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
@@ -439,51 +383,65 @@
                         培育專業傳播人才的搖籃
                     </p>
                     <div class="footer-social">
-                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-line"></i></a>
+                        <a href="https://www.facebook.com/ShihHsinU" target="_blank" rel="noopener" class="social-link" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.youtube.com/c/ShihHsinU" target="_blank" rel="noopener" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/shih.hsin.u" target="_blank" rel="noopener" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="Line"><i class="fab fa-line"></i></a>
                     </div>
                 </div>
-                
                 <div class="footer-section">
                     <h3 class="footer-title">快速連結</h3>
                     <ul class="footer-links">
-                        <li><a href="../index.html">首頁</a></li>
                         <li><a href="about.html">關於世新</a></li>
                         <li><a href="academics.html">學院系所</a></li>
                         <li><a href="admissions.html">招生資訊</a></li>
+                        <li><a href="campus-life.html">校園生活</a></li>
                     </ul>
                 </div>
-                
                 <div class="footer-section">
-                    <h3 class="footer-title">學院系所</h3>
+                    <h3 class="footer-title">生活資源</h3>
                     <ul class="footer-links">
-                        <li><a href="academics.html#journalism">新聞傳播學院</a></li>
-                        <li><a href="academics.html#management">管理學院</a></li>
-                        <li><a href="academics.html#humanities">人文社會學院</a></li>
-                        <li><a href="academics.html#law">法律學院</a></li>
+                        <li><a href="#student-clubs">學生社團</a></li>
+                        <li><a href="#living-services">住宿與餐飲</a></li>
+                        <li><a href="#learning-resources">學習資源</a></li>
+                        <li><a href="#sports-health">體育健康</a></li>
                     </ul>
                 </div>
-                
                 <div class="footer-section">
                     <h3 class="footer-title">聯絡資訊</h3>
                     <div class="footer-contact">
-                        <p><i class="fas fa-map-marker-alt"></i> 116台北市文山區木柵路一段17巷1號</p>
-                        <p><i class="fas fa-phone"></i> (02) 2236-8225</p>
-                        <p><i class="fas fa-envelope"></i> pr@mail.shu.edu.tw</p>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>116台北市文山區木柵路一段17巷1號</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>(02) 2236-8225</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>pr@mail.shu.edu.tw</span>
+                        </div>
                     </div>
                 </div>
             </div>
-            
             <div class="footer-bottom">
-                <p>&copy; 2024 世新大學 Shih Hsin University. All rights reserved.</p>
+                 <div class="footer-copyright">
+                    <p>&copy; 2024 世新大學資訊網. All rights reserved. | 本網站為教育用途建置</p>
+                </div>
+                <div class="footer-links-bottom">
+                    <a href="#">隱私政策</a>
+                    <a href="#">使用條款</a>
+                </div>
             </div>
         </div>
     </footer>
+    
+    <button id="backToTop" class="back-to-top" aria-label="回到頂部">
+        <i class="fas fa-arrow-up"></i>
+    </button>
 
     <!-- JavaScript -->
     <script src="../js/main.js"></script>
 </body>
 </html>
-
