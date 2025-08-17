@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>學院系所 - 世新大學</title>
-    <meta name="description" content="世新大學設有新聞傳播學院、管理學院、人文社會學院及法律學院等四個學院，共19個學系、3個獨立研究所、7個學位學程。">
-    <meta name="keywords" content="世新大學,學院系所,新聞傳播學院,管理學院,人文社會學院,法律學院">
+    <meta name="description" content="探索世新大學四大專業學院：新聞傳播學院、管理學院、人文社會學院及法律學院。了解各學院特色、所有系所介紹，以及理論與實務並重的教學理念。">
+    <meta name="keywords" content="世新大學,學院系所,新聞傳播學院,管理學院,人文社會學院,法律學院,大學科系">
     
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="學院系所 - 世新大學">
-    <meta property="og:description" content="世新大學設有四個學院，培育多元專業領域人才。">
+    <meta property="og:description" content="世新大學設有四大學院，提供多元專業領域，培育理論與實務兼具的全方位人才。">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://a103210095.github.io/shih-hsin-website/pages/academics.html">
+    <meta property="og:image" content="https://a103210095.github.io/shih-hsin-website/images/academics-hero.jpg">
     
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
     
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/responsive.css">
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    <a href="#main-content" class="skip-link">跳至主要內容</a>
     <!-- Header -->
     <header class="header">
         <nav class="navbar">
@@ -54,10 +55,10 @@
                         <li class="nav-item dropdown">
                             <a href="academics.html" class="nav-link active">學院系所</a>
                             <ul class="dropdown-menu">
-                                <li><a href="https://cjc.shu.edu.tw/" target="_blank" rel="noopener">新聞傳播學院</a></li>
-                                <li><a href="https://smgmt.wp.shu.edu.tw/" target="_blank" rel="noopener">管理學院</a></li>
-                                <li><a href="https://chss.wp.shu.edu.tw/" target="_blank" rel="noopener">人文社會學院</a></li>
-                                <li><a href="https://lawsch.wp.shu.edu.tw/" target="_blank" rel="noopener">法律學院</a></li>
+                                <li><a href="#journalism">新聞傳播學院</a></li>
+                                <li><a href="#management">管理學院</a></li>
+                                <li><a href="#humanities">人文社會學院</a></li>
+                                <li><a href="#law">法律學院</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -93,117 +94,275 @@
         </nav>
     </header>
 
-    <!-- Page Header -->
-    <section class="page-header">
-        <div class="container">
-            <div class="page-header-content">
-                <h1 class="page-title">學院系所</h1>
-                <p class="page-subtitle">多元專業領域，培育全方位人才。更多詳細資訊請參考
-                    <a href="https://www.shu.edu.tw/" target="_blank" rel="noopener">世新大學官網</a>。
-                </p>
-                <nav class="breadcrumb">
-                    <a href="../index.html">首頁</a>
-                    <span class="separator">/</span>
-                    <span class="current">學院系所</span>
-                </nav>
+    <main id="main-content">
+        <!-- Page Header -->
+        <section class="hero" style="height: 60vh; min-height: 450px;">
+             <div class="hero-background" style="background-image: url('../images/academics-hero.jpg'); background-size: cover; background-position: center;">
+                <div class="hero-overlay"></div>
             </div>
-        </div>
-    </section>
-
-    <!-- Overview Section -->
-    <section class="overview-section">
-        <div class="container">
-            <div class="overview-content">
-                <h2>學院概況</h2>
-                <p>世新大學設有新聞傳播學院、管理學院、人文社會學院及法律學院等四個學院，共19個學系、3個獨立研究所、7個學位學程，包含3個博士班、20個碩士班、19個學士班、17個碩士在職專班、5個進修學士班、3個境外碩士專班、4個產碩專班以及1個營區專班，學生總人數約1萬1千餘人。</p>
-            </div>
-            
-            <div class="stats-overview">
-                <div class="stat-card">
-                    <div class="stat-number">4</div>
-                    <div class="stat-label">學院</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">19</div>
-                    <div class="stat-label">學系</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">3</div>
-                    <div class="stat-label">獨立研究所</div>
-                </div>
-                <div class="stat-card">
-                    <div class="stat-number">7</div>
-                    <div class="stat-label">學位學程</div>
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="title-main" style="font-size: 3.5rem;">學院系所</span>
+                    </h1>
+                    <p class="hero-subtitle" style="font-size: 1.5rem;">四大專業領域，構築你的知識殿堂</p>
+                    <nav aria-label="breadcrumb" style="color: white; margin-top: 1rem;">
+                        <a href="../index.html" style="color: white; text-decoration: none; font-weight: 500;">首頁</a>
+                        <span class="separator" style="margin: 0 0.5rem;"> / </span>
+                        <span>學院系所</span>
+                    </nav>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-
-
-
-
-
-
-
-
-    <!-- Features Section -->
-    <section class="features-section">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">教學特色</h2>
-                <p class="section-subtitle">理論與實務並重的專業教育</p>
-            </div>
-            
-            <div class="features-grid">
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <i class="fas fa-microscope"></i>
+        <!-- Academic Overview -->
+        <section class="stats" style="padding: 4rem 0;">
+            <div class="container">
+                <div class="section-header" style="margin-bottom: 2.5rem;">
+                    <h2 class="section-title" style="color: white;">學術總覽</h2>
+                    <p class="section-subtitle" style="color: #f0f0f0; max-width: 800px;">世新大學以完整的學術架構，提供從學士、碩士到博士的完整學程，致力於培育理論與實務兼具的跨域人才。</p>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-number">4</div>
+                        <div class="stat-label">專業學院</div>
                     </div>
-                    <h3>專業實習中心</h3>
-                    <p>設備完善的實習中心，提供學生實務操作機會</p>
+                    <div class="stat-item">
+                        <div class="stat-number">19</div>
+                        <div class="stat-label">學士班學系</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">23</div>
+                        <div class="stat-label">碩士班與博士班</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">1000+</div>
+                        <div class="stat-label">業界合作夥伴</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quick Navigation -->
+        <section style="padding: 2rem 0; background-color: #f8f9fa; text-align: center;">
+            <div class="container">
+                <h3 style="margin-bottom: 1.5rem; color: #333;">快速導覽至各大學院</h3>
+                <div class="hero-buttons">
+                    <a href="#journalism" class="btn btn-secondary">新聞傳播學院</a>
+                    <a href="#management" class="btn btn-secondary">管理學院</a>
+                    <a href="#humanities" class="btn btn-secondary">人文社會學院</a>
+                    <a href="#law" class="btn btn-secondary">法律學院</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- College of Journalism and Communication -->
+        <section id="journalism" class="features" style="padding: 5rem 0;">
+            <div class="container">
+                <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 3rem; margin-bottom: 4rem;">
+                    <div style="flex: 1 1 400px;">
+                        <img src="../images/college-journalism.jpg" alt="新聞傳播學院的學生正在專業攝影棚內進行實作拍攝" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.1);">
+                    </div>
+                    <div style="flex: 2 1 400px;">
+                        <h2 class="section-title" style="text-align: left;">新聞傳播學院</h2>
+                        <h3 style="font-weight: 400; color: #666; margin-top: -1rem; margin-bottom: 1.5rem;">College of Journalism and Communication</h3>
+                        <p>作為臺灣傳播教育的發源地與領導者，新聞傳播學院擁有最悠久的歷史與最完整的系所結構。我們致力於培育具備「全媒體、跨平台」能力的媒體專才。從傳統的新聞採寫、廣播電視製作，到最新的數位媒體、數據新聞與AI生成內容，我們提供最前瞻的課程與最頂尖的設備，讓學生站在媒體創新的最前線。</p>
+                        <a href="https://cjc.shu.edu.tw/" class="btn btn-primary" target="_blank" rel="noopener">前往學院網站</a>
+                    </div>
                 </div>
                 
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <i class="fas fa-industry"></i>
-                    </div>
-                    <h3>產學合作</h3>
-                    <p>與業界緊密合作，提供豐富的實習與就業機會</p>
+                <div class="section-header">
+                    <h3 class="section-title">旗下系所</h3>
                 </div>
-                
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <i class="fas fa-globe"></i>
+                <div class="colleges-grid">
+                    <div class="college-card">
+                        <div class="college-content">
+                            <h4 class="college-title">新聞學系</h4>
+                            <p class="college-description">培育具備深度報導、事實查核與數據分析能力的新聞專業人才。</p>
+                        </div>
                     </div>
-                    <h3>國際交流</h3>
-                    <p>積極推動國際學術交流，拓展學生國際視野</p>
-                </div>
-                
-                <div class="feature-item">
-                    <div class="feature-icon">
-                        <i class="fas fa-award"></i>
+                    <div class="college-card">
+                        <div class="college-content">
+                            <h4 class="college-title">廣播電視電影學系</h4>
+                            <p class="college-description">涵蓋廣播、電視、電影三大領域，培育影視音內容的創作與製作人才。</p>
+                        </div>
                     </div>
-                    <h3>卓越師資</h3>
-                    <p>擁有豐富學術與實務經驗的優秀教師團隊</p>
+                    <div class="college-card">
+                        <div class="college-content">
+                            <h4 class="college-title">公共關係暨廣告學系</h4>
+                            <p class="college-description">專注於品牌溝通、行銷策略與危機管理，培育公關與廣告界的策略家。</p>
+                        </div>
+                    </div>
+                    <div class="college-card">
+                        <div class="college-content">
+                            <h4 class="college-title">口語傳播暨社群媒體學系</h4>
+                            <p class="college-description">結合口語表達藝術與社群媒體經營，培育新時代的溝通與影響力專家。</p>
+                        </div>
+                    </div>
+                    <div class="college-card">
+                        <div class="college-content">
+                            <h4 class="college-title">資訊傳播學系</h4>
+                            <p class="college-description">探索人機互動、資訊設計與數位敘事，培育數位內容的設計與企劃人才。</p>
+                        </div>
+                    </div>
+                    <div class="college-card">
+                        <div class="college-content">
+                            <h4 class="college-title">圖文傳播學系</h4>
+                            <p class="college-description">專精於平面設計、攝影美學與出版流程，培育視覺傳達與印刷科技的專才。</p>
+                        </div>
+                    </div>
+                    <div class="college-card">
+                        <div class="college-content">
+                            <h4 class="college-title">數位多媒體設計學系</h4>
+                            <p class="college-description">聚焦於動畫、遊戲設計與互動媒體，培育數位娛樂與藝術的創作者。</p>
+                        </div>
+                    </div>
+                    <div class="college-card">
+                        <div class="college-content">
+                            <h4 class="college-title">傳播管理學系</h4>
+                            <p class="college-description">結合傳播專業與管理科學，培育媒體產業的經營與管理人才。</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- CTA Section -->
-    <section class="cta">
-        <div class="container">
-            <div class="cta-content">
-                <h2 class="cta-title">探索您的專業領域</h2>
-                <p class="cta-description">在世新大學找到適合您的學系，開啟專業學習之路</p>
-                <div class="cta-buttons">
-                    <a href="admissions.html" class="btn btn-primary">查看招生資訊</a>
-                    <a href="contact.html" class="btn btn-secondary">聯絡我們</a>
+        <!-- College of Management -->
+        <section id="management" class="features" style="background-color: #fff;">
+            <div class="container">
+                <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 3rem; margin-bottom: 4rem;">
+                     <div style="flex: 2 1 400px;">
+                        <h2 class="section-title" style="text-align: left;">管理學院</h2>
+                        <h3 style="font-weight: 400; color: #666; margin-top: -1rem; margin-bottom: 1.5rem;">College of Management</h3>
+                        <p>管理學院的獨特之處在於將「管理專業」與世新獨有的「傳播優勢」深度融合。我們不僅教授傳統的管理、財務、資訊與觀光知識，更強調溝通協調、品牌行銷與數位敘事的能力。在AI與大數據時代，我們致力於培育具備數據分析能力與數位轉型思維的未來商業領袖，讓學生在競爭激烈的就業市場中脫穎而出。</p>
+                        <a href="https://smgmt.wp.shu.edu.tw/" class="btn btn-primary" target="_blank" rel="noopener">前往學院網站</a>
+                    </div>
+                    <div style="flex: 1 1 400px;">
+                        <img src="../images/college-management.jpg" alt="管理學院的學生們正在進行商業個案的互動討論" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.1);">
+                    </div>
+                </div>
+
+                <div class="section-header">
+                    <h3 class="section-title">旗下系所</h3>
+                </div>
+                <div class="colleges-grid">
+                    <div class="college-card">
+                        <div class="college-content">
+                            <h4 class="college-title">企業管理學系</h4>
+                            <p class="college-description">培育具備策略思維、創新能力與社會責任的現代企業管理者。</p>
+                        </div>
+                    </div>
+                    <div class="college-card">
+                        <div class="college-content">
+                            <h4 class="college-title">資訊管理學系</h4>
+                            <p class="college-description">結合資訊科技與管理科學，專注於系統開發、數據分析與AI商業應用。</p>
+                        </div>
+                    </div>
+                    <div class="college-card">
+                        <div class="college-content">
+                            <h4 class="college-title">財務金融學系</h4>
+                            <p class="college-description">聚焦於投資分析、風險管理與金融科技(FinTech)，培育金融市場的專業人才。</p>
+                        </div>
+                    </div>
+                    <div class="college-card">
+                        <div class="college-content">
+                            <h4 class="college-title">觀光學系</h4>
+                            <p class="college-description">分為餐旅、遊憩與行銷三大專業，培育觀光休閒產業的規劃與經營人才。</p>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <!-- College of Humanities and Social Sciences -->
+        <section id="humanities" class="features">
+            <div class="container">
+                <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 3rem; margin-bottom: 4rem;">
+                    <div style="flex: 1 1 400px;">
+                        <img src="../images/college-humanities.jpg" alt="人文社會學院的學生沉浸在圖書館的書海中，專心閱讀" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.1);">
+                    </div>
+                     <div style="flex: 2 1 400px;">
+                        <h2 class="section-title" style="text-align: left;">人文社會學院</h2>
+                        <h3 style="font-weight: 400; color: #666; margin-top: -1rem; margin-bottom: 1.5rem;">College of Humanities and Social Sciences</h3>
+                        <p>人文社會學院是培養學生思辨能力、文化素養與社會關懷的核心。我們提供語言文學、社會學、心理學等多元課程，鼓勵學生探索人類文明的深度與廣度。本院強調跨文化溝通、批判性思考與田野調查的實踐能力，致力於培育具備同理心、宏觀視野與解決複雜社會問題能力的現代公民。</p>
+                        <a href="https://chss.wp.shu.edu.tw/" class="btn btn-primary" target="_blank" rel="noopener">前往學院網站</a>
+                    </div>
+                </div>
+                <div class="section-header">
+                    <h3 class="section-title">旗下系所</h3>
+                </div>
+                <div class="colleges-grid">
+                    <div class="college-card">
+                        <div class="college-content">
+                            <h4 class="college-title">社會心理學系</h4>
+                            <p class="college-description">探索個人心理與社會行為的交互影響，應用於市場、諮商與公共事務。</p>
+                        </div>
+                    </div>
+                    <div class="college-card">
+                        <div class="college-content">
+                            <h4 class="college-title">中國文學系</h4>
+                            <p class="college-description">深入古典與現代文學，結合數位人文與創意寫作，傳承與創新中華文化。</p>
+                        </div>
+                    </div>
+                    <div class="college-card">
+                        <div class="college-content">
+                            <h4 class="college-title">英語暨傳播應用學系</h4>
+                            <p class="college-description">結合紮實的英語能力與跨文化傳播理論，培育國際化的溝通人才。</p>
+                        </div>
+                    </div>
+                    <div class="college-card">
+                        <div class="college-content">
+                            <h4 class="college-title">日本語文學系</h4>
+                            <p class="college-description">專精日語溝通、日本文化與商務應用，搭建臺日交流的橋梁。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- College of Law -->
+        <section id="law" class="features" style="background-color: #fff;">
+            <div class="container">
+                <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 3rem; margin-bottom: 4rem;">
+                     <div style="flex: 2 1 400px;">
+                        <h2 class="section-title" style="text-align: left;">法律學院</h2>
+                        <h3 style="font-weight: 400; color: #666; margin-top: -1rem; margin-bottom: 1.5rem;">College of Law</h3>
+                        <p>法律學院以「理論與實務並重」為核心宗旨，致力於培育具備專業法學素養、獨立思辨能力與社會正義感的法律專才。本院設有與法院同級的「模擬法庭」，並與多家知名律師事務所合作，提供學生最真實的實務訓練。課程特別強化智慧財產權法、傳播法等與時代脈動緊密結合的領域，讓學生在法律專業的基礎上，建立無可取代的跨域競爭力。</p>
+                        <a href="https://lawsch.wp.shu.edu.tw/" class="btn btn-primary" target="_blank" rel="noopener">前往學院網站</a>
+                    </div>
+                    <div style="flex: 1 1 400px;">
+                        <img src="../images/college-law.jpg" alt="法律學院的模擬法庭，呈現出莊嚴的法學教育環境" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.1);">
+                    </div>
+                </div>
+                <div class="section-header">
+                    <h3 class="section-title">旗下系所</h3>
+                </div>
+                <div class="colleges-grid" style="grid-template-columns: 1fr;">
+                     <div class="college-card" style="max-width: 500px; margin: 0 auto;">
+                        <div class="college-content">
+                            <h4 class="college-title">法律學系</h4>
+                            <p class="college-description">提供完整的基礎法學與實務課程，培育法官、檢察官、律師等專業法律人才。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 class="cta-title">找到你的學術歸屬</h2>
+                    <p class="cta-description">無論你的興趣與專長為何，在世新大學都能找到讓你發光發熱的專業領域。</p>
+                    <div class="cta-buttons">
+                        <a href="admissions.html" class="btn btn-primary">探索招生資訊</a>
+                        <a href="contact.html" class="btn btn-secondary">聯絡招生中心</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
@@ -219,25 +378,23 @@
                         培育專業傳播人才的搖籃
                     </p>
                     <div class="footer-social">
-                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-line"></i></a>
+                        <a href="https://www.facebook.com/ShihHsinU" target="_blank" rel="noopener" class="social-link" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.youtube.com/c/ShihHsinU" target="_blank" rel="noopener" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/shih.hsin.u" target="_blank" rel="noopener" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="Line"><i class="fab fa-line"></i></a>
                     </div>
                 </div>
-                
                 <div class="footer-section">
                     <h3 class="footer-title">快速連結</h3>
                     <ul class="footer-links">
-                        <li><a href="../index.html">首頁</a></li>
                         <li><a href="about.html">關於世新</a></li>
                         <li><a href="academics.html">學院系所</a></li>
                         <li><a href="admissions.html">招生資訊</a></li>
+                        <li><a href="campus-life.html">校園生活</a></li>
                     </ul>
                 </div>
-                
                 <div class="footer-section">
-                    <h3 class="footer-title">學院系所</h3>
+                    <h3 class="footer-title">學院導覽</h3>
                     <ul class="footer-links">
                         <li><a href="#journalism">新聞傳播學院</a></li>
                         <li><a href="#management">管理學院</a></li>
@@ -245,25 +402,41 @@
                         <li><a href="#law">法律學院</a></li>
                     </ul>
                 </div>
-                
                 <div class="footer-section">
                     <h3 class="footer-title">聯絡資訊</h3>
                     <div class="footer-contact">
-                        <p><i class="fas fa-map-marker-alt"></i> 116台北市文山區木柵路一段17巷1號</p>
-                        <p><i class="fas fa-phone"></i> (02) 2236-8225</p>
-                        <p><i class="fas fa-envelope"></i> pr@mail.shu.edu.tw</p>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>116台北市文山區木柵路一段17巷1號</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>(02) 2236-8225</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>pr@mail.shu.edu.tw</span>
+                        </div>
                     </div>
                 </div>
             </div>
-            
             <div class="footer-bottom">
-                <p>&copy; 2024 世新大學 Shih Hsin University. All rights reserved.</p>
+                 <div class="footer-copyright">
+                    <p>&copy; 2024 世新大學資訊網. All rights reserved. | 本網站為教育用途建置</p>
+                </div>
+                <div class="footer-links-bottom">
+                    <a href="#">隱私政策</a>
+                    <a href="#">使用條款</a>
+                </div>
             </div>
         </div>
     </footer>
-
+    
+    <button id="backToTop" class="back-to-top" aria-label="回到頂部">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
     <!-- JavaScript -->
     <script src="../js/main.js"></script>
 </body>
 </html>
-
