@@ -1,104 +1,84 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-    <!-- 首頁 -->
-    <url>
-        <loc>https://your-username.github.io/shih-hsin-website/</loc>
-        <lastmod>2024-08-16</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>1.0</priority>
-    </url>
+  <!-- 首頁 (Homepage) -->
+  <url>
+    <loc>https://a103210095.github.io/shih-hsin-website/index.html</loc>
+    <lastmod>2025-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
 
-    <!-- 關於世新頁面 -->
-    <url>
-        <loc>https://your-username.github.io/shih-hsin-website/pages/about.html</loc>
-        <lastmod>2024-08-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
+  <!-- 關於世新 (About) -->
+  <url>
+    <loc>https://a103210095.github.io/shih-hsin-website/pages/about.html</loc>
+    <lastmod>2025-08-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
-    <!-- 學院系所頁面 -->
-    <url>
-        <loc>https://your-username.github.io/shih-hsin-website/pages/colleges.html</loc>
-        <lastmod>2024-08-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.8</priority>
-    </url>
+  <!-- 學院系所 (Academics) -->
+  <url>
+    <loc>https://a103210095.github.io/shih-hsin-website/pages/academics.html</loc>
+    <lastmod>2025-08-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
 
-    <!-- 招生資訊頁面 -->
-    <url>
-        <loc>https://your-username.github.io/shih-hsin-website/pages/admission.html</loc>
-        <lastmod>2024-08-16</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.9</priority>
-    </url>
+  <!-- 師資介紹 (Faculty) -->
+  <url>
+    <loc>https://a103210095.github.io/shih-hsin-website/pages/faculty.html</loc>
+    <lastmod>2025-08-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 
-    <!-- 校園生活頁面 -->
-    <url>
-        <loc>https://your-username.github.io/shih-hsin-website/pages/campus-life.html</loc>
-        <lastmod>2024-08-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
+  <!-- 課程資訊 (Courses) -->
+  <url>
+    <loc>https://a103210095.github.io/shih-hsin-website/pages/courses.html</loc>
+    <lastmod>2025-08-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 
-    <!-- 傑出校友頁面 -->
-    <url>
-        <loc>https://your-username.github.io/shih-hsin-website/pages/alumni.html</loc>
-        <lastmod>2024-08-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
+  <!-- 招生資訊 (Admissions) -->
+  <url>
+    <loc>https://a103210095.github.io/shih-hsin-website/pages/admissions.html</loc>
+    <lastmod>2025-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
 
-    <!-- 最新消息頁面 -->
-    <url>
-        <loc>https://your-username.github.io/shih-hsin-website/pages/news.html</loc>
-        <lastmod>2024-08-16</lastmod>
-        <changefreq>daily</changefreq>
-        <priority>0.8</priority>
-    </url>
+  <!-- 校園生活 (Campus Life) -->
+  <url>
+    <loc>https://a103210095.github.io/shih-hsin-website/pages/campus-life.html</loc>
+    <lastmod>2025-08-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 
-    <!-- 聯絡我們頁面 -->
-    <url>
-        <loc>https://your-username.github.io/shih-hsin-website/pages/contact.html</loc>
-        <lastmod>2024-08-16</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.6</priority>
-    </url>
+  <!-- 傑出校友 (Alumni) -->
+  <url>
+    <loc>https://a103210095.github.io/shih-hsin-website/pages/alumni.html</loc>
+    <lastmod>2025-08-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
 
-    <!-- 新聞傳播學院詳細頁面 -->
-    <url>
-        <loc>https://your-username.github.io/shih-hsin-website/pages/journalism-college.html</loc>
-        <lastmod>2024-08-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
+  <!-- 最新消息 (News) -->
+  <url>
+    <loc>https://a103210095.github.io/shih-hsin-website/pages/news.html</loc>
+    <lastmod>2025-08-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
 
-    <!-- 管理學院詳細頁面 -->
-    <url>
-        <loc>https://your-username.github.io/shih-hsin-website/pages/management-college.html</loc>
-        <lastmod>2024-08-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-
-    <!-- 人文社會學院詳細頁面 -->
-    <url>
-        <loc>https://your-username.github.io/shih-hsin-website/pages/humanities-college.html</loc>
-        <lastmod>2024-08-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
-
-    <!-- 法律學院詳細頁面 -->
-    <url>
-        <loc>https://your-username.github.io/shih-hsin-website/pages/law-college.html</loc>
-        <lastmod>2024-08-16</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>0.7</priority>
-    </url>
+  <!-- 聯絡我們 (Contact) -->
+  <url>
+    <loc>https://a103210095.github.io/shih-hsin-website/pages/contact.html</loc>
+    <lastmod>2025-08-17</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
+  </url>
 
 </urlset>
-
