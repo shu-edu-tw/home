@@ -4,30 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>傑出校友 - 世新大學</title>
-    <meta name="description" content="世新大學培育無數傑出校友，在新聞傳播、影視娛樂、企業管理等各領域發光發熱，為社會貢獻專業才能。">
-    <meta name="keywords" content="世新大學,傑出校友,新聞界,影視界,企業界,校友成就">
-    
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4N3WXGW3W3"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-4N3WXGW3W3');
-    </script>
+    <meta name="description" content="世新大學校友人才輩出，在新聞傳播、影視藝文、企業、政法等各界發光發熱。在此瀏覽數十位傑出校友的卓越成就，見證世新「亞洲夢工廠」的輝煌傳承。">
+    <meta name="keywords" content="世新大學,傑出校友,校友名錄,名人校友,新聞界,影視界,企業界,政治界">
     
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="傑出校友 - 世新大學">
-    <meta property="og:description" content="世新大學培育無數傑出校友，在各領域發光發熱。">
+    <meta property="og:description" content="世新大學培育無數傑出校友，在各領域發光發熱，共同鑄就「世新人」的榮光。">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://a103210095.github.io/shih-hsin-website/pages/alumni.html">
+    <meta property="og:image" content="https://a103210095.github.io/shih-hsin-website/images/alumni-hero.jpg">
     
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
     
     <!-- CSS -->
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/responsive.css">
     
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -36,6 +27,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 <body>
+    <a href="#main-content" class="skip-link">跳至主要內容</a>
     <!-- Header -->
     <header class="header">
         <nav class="navbar">
@@ -63,10 +55,10 @@
                         <li class="nav-item dropdown">
                             <a href="academics.html" class="nav-link">學院系所</a>
                             <ul class="dropdown-menu">
-                                <li><a href="https://cjc.shu.edu.tw/" target="_blank" rel="noopener">新聞傳播學院</a></li>
-                                <li><a href="https://smgmt.wp.shu.edu.tw/" target="_blank" rel="noopener">管理學院</a></li>
-                                <li><a href="https://chss.wp.shu.edu.tw/" target="_blank" rel="noopener">人文社會學院</a></li>
-                                <li><a href="https://lawsch.wp.shu.edu.tw/" target="_blank" rel="noopener">法律學院</a></li>
+                                <li><a href="academics.html#journalism">新聞傳播學院</a></li>
+                                <li><a href="academics.html#management">管理學院</a></li>
+                                <li><a href="academics.html#humanities">人文社會學院</a></li>
+                                <li><a href="academics.html#law">法律學院</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
@@ -102,379 +94,322 @@
         </nav>
     </header>
 
-    <!-- Page Header -->
-    <section class="page-header">
-        <div class="container">
-            <div class="page-header-content">
-                <h1 class="page-title">傑出校友</h1>
-                <p class="page-subtitle">世新人才遍布各界，為社會貢獻專業力量</p>
-                <nav class="breadcrumb">
-                    <a href="../index.html">首頁</a>
-                    <span class="separator">/</span>
-                    <span class="current">傑出校友</span>
-                </nav>
+    <main id="main-content">
+        <!-- Page Header -->
+        <section class="hero" style="height: 60vh; min-height: 450px;">
+             <div class="hero-background" style="background-image: url('../images/alumni-hero.jpg'); background-size: cover; background-position: center center;">
+                <div class="hero-overlay"></div>
             </div>
-        </div>
-    </section>
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="title-main" style="font-size: 3.5rem;">傑出校友</span>
+                    </h1>
+                    <p class="hero-subtitle" style="font-size: 1.5rem;">世新人的榮光，在各行各業璀璨生輝</p>
+                    <nav aria-label="breadcrumb" style="color: white; margin-top: 1rem;">
+                        <a href="../index.html" style="color: white; text-decoration: none; font-weight: 500;">首頁</a>
+                        <span class="separator" style="margin: 0 0.5rem;"> / </span>
+                        <span>傑出校友</span>
+                    </nav>
+                </div>
+            </div>
+        </section>
 
-    <!-- Alumni Overview -->
-    <section class="alumni-overview">
-        <div class="container">
-            <div class="overview-content">
-                <h2>校友成就</h2>
-                <p>世新大學自1956年創校以來，培育了無數優秀人才。我們的校友在新聞傳播、影視娛樂、企業管理、政治公共事務等各個領域都有傑出表現，成為推動社會進步的重要力量。</p>
-            </div>
-            
-            <div class="alumni-stats">
-                <div class="stat-item">
-                    <div class="stat-icon">
-                        <i class="fas fa-users"></i>
-                    </div>
-                    <div class="stat-number">100,000+</div>
-                    <div class="stat-label">校友總數</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-icon">
-                        <i class="fas fa-globe"></i>
-                    </div>
-                    <div class="stat-number">50+</div>
-                    <div class="stat-label">分布國家</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-icon">
-                        <i class="fas fa-award"></i>
-                    </div>
-                    <div class="stat-number">1000+</div>
-                    <div class="stat-label">業界領袖</div>
+        <!-- Alumni Intro -->
+        <section style="padding: 5rem 0;">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">世新之光・榮耀傳承</h2>
+                    <p class="section-subtitle" style="max-width: 800px;">
+                        自創校以來，世新大學培育了超過十萬名畢業生，他們如同滿天繁星，在全球各地的各行各業中發光發熱。「世新人」不僅是一個學歷的標記，更是一種專業、敬業與創新的精神象徵。從媒體界的意見領袖、叱吒風雲的影視巨星，到企業界的領航者與政壇的菁英，我們的校友共同鑄就了世新大學無與倫比的榮光與驕傲。
+                    </p>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Alumni by Industry -->
-    <section class="alumni-industries">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">各界傑出校友</h2>
-                <p class="section-subtitle">世新校友在各行各業發光發熱</p>
-            </div>
-            
-            <div class="industries-grid">
-                <div class="industry-card">
-                    <div class="industry-icon">
-                        <i class="fas fa-newspaper"></i>
+        <!-- Outstanding Alumni Award -->
+        <section class="features" style="padding-bottom: 5rem;">
+            <div class="container">
+                <div class="feature-card" style="text-align: left; max-width: 900px; margin: 0 auto; display: flex; flex-wrap: wrap; align-items: center; gap: 2rem; padding: 2.5rem;">
+                    <div class="feature-icon" style="flex-shrink: 0;"><i class="fas fa-award"></i></div>
+                    <div>
+                        <h3 class="feature-title" style="text-align: left; margin-bottom: 0.5rem;">關於「傑出校友獎」</h3>
+                        <p class="feature-description" style="margin-bottom: 0;">為表彰對國家社會有卓越貢獻及傑出成就，足以為世新後學楷模之校友，本校特設立「傑出校友獎」。每年經由嚴謹的遴選程序，選出在各領域足為表率的校友，授予此一最高榮譽。本頁面收錄之校友，多為歷屆獲獎人及在各界備受肯定的知名人士。</p>
                     </div>
-                    <h3>新聞傳播界</h3>
-                    <p>眾多校友在各大媒體擔任重要職務，包括電視台主播、記者、製作人等</p>
-                    <ul class="alumni-examples">
-                        <li>知名主播與新聞工作者</li>
-                        <li>媒體高階主管</li>
-                        <li>獨立媒體創辦人</li>
-                        <li>國際新聞特派員</li>
-                    </ul>
-                </div>
-                
-                <div class="industry-card">
-                    <div class="industry-icon">
-                        <i class="fas fa-film"></i>
-                    </div>
-                    <h3>影視娛樂界</h3>
-                    <p>在電影、電視、廣告等影視產業中擔任導演、製作人、演員等重要角色</p>
-                    <ul class="alumni-examples">
-                        <li>知名導演與製作人</li>
-                        <li>影視明星與藝人</li>
-                        <li>廣告創意總監</li>
-                        <li>影視公司高層</li>
-                    </ul>
-                </div>
-                
-                <div class="industry-card">
-                    <div class="industry-icon">
-                        <i class="fas fa-building"></i>
-                    </div>
-                    <h3>企業管理界</h3>
-                    <p>在各大企業擔任高階主管，運用傳播專業結合管理知識</p>
-                    <ul class="alumni-examples">
-                        <li>上市公司執行長</li>
-                        <li>跨國企業高階主管</li>
-                        <li>新創公司創辦人</li>
-                        <li>行銷公關總監</li>
-                    </ul>
-                </div>
-                
-                <div class="industry-card">
-                    <div class="industry-icon">
-                        <i class="fas fa-landmark"></i>
-                    </div>
-                    <h3>政治公共事務</h3>
-                    <p>在政府機關、非營利組織等公共部門服務社會</p>
-                    <ul class="alumni-examples">
-                        <li>政府部門首長</li>
-                        <li>民意代表</li>
-                        <li>NGO組織領導人</li>
-                        <li>國際組織工作者</li>
-                    </ul>
-                </div>
-                
-                <div class="industry-card">
-                    <div class="industry-icon">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <h3>學術教育界</h3>
-                    <p>在各大學院校從事教學研究工作，培育下一代人才</p>
-                    <ul class="alumni-examples">
-                        <li>大學校長與院長</li>
-                        <li>知名學者教授</li>
-                        <li>研究機構主管</li>
-                        <li>教育政策制定者</li>
-                    </ul>
-                </div>
-                
-                <div class="industry-card">
-                    <div class="industry-icon">
-                        <i class="fas fa-laptop-code"></i>
-                    </div>
-                    <h3>科技數位界</h3>
-                    <p>在科技公司、數位媒體等新興產業發揮專長</p>
-                    <ul class="alumni-examples">
-                        <li>科技公司創辦人</li>
-                        <li>數位內容創作者</li>
-                        <li>社群媒體專家</li>
-                        <li>數位行銷領袖</li>
-                    </ul>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+        
+        <!-- Quick Navigation -->
+        <section style="padding: 3rem 0; background-color: #f8f9fa; text-align: center;">
+            <div class="container">
+                <h3 style="margin-bottom: 1.5rem; color: #333;">快速查找各領域傑出校友</h3>
+                <div class="hero-buttons">
+                    <a href="#media-stars" class="btn btn-secondary">新聞傳播界</a>
+                    <a href="#entertainment-icons" class="btn btn-secondary">影視藝文界</a>
+                    <a href="#business-leaders" class="btn btn-secondary">企業領袖</a>
+                    <a href="#public-figures" class="btn btn-secondary">政法界菁英</a>
+                </div>
+            </div>
+        </section>
 
-    <!-- Featured Alumni -->
-    <section class="featured-alumni bg-light">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">校友風采</h2>
-                <p class="section-subtitle">傑出校友代表分享</p>
-            </div>
-            
-            <div class="alumni-profiles">
-                <div class="alumni-card">
-                    <div class="alumni-image">
-                        <img src="../images/alumni-1.jpg" alt="傑出校友">
-                    </div>
-                    <div class="alumni-info">
-                        <h3>新聞傳播界領袖</h3>
-                        <p class="alumni-title">知名媒體集團執行長</p>
-                        <p class="alumni-quote">"世新教會我的不只是專業技能，更重要的是新聞工作者的使命感與社會責任。"</p>
-                        <div class="alumni-achievements">
-                            <span class="achievement">金鐘獎得主</span>
-                            <span class="achievement">媒體創新獎</span>
-                        </div>
-                    </div>
+        <!-- Section: Media Stars -->
+        <section id="media-stars" class="colleges" style="padding: 5rem 0;">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">新聞傳播界</h2>
+                    <p class="section-subtitle">執筆為劍，發聲為號，他們是守望社會的媒體巨擘</p>
                 </div>
-                
-                <div class="alumni-card">
-                    <div class="alumni-image">
-                        <img src="../images/alumni-2.jpg" alt="傑出校友">
-                    </div>
-                    <div class="alumni-info">
-                        <h3>影視界知名導演</h3>
-                        <p class="alumni-title">國際知名電影導演</p>
-                        <p class="alumni-quote">"在世新學到的不只是技術，更是說故事的能力和對人文的關懷。"</p>
-                        <div class="alumni-achievements">
-                            <span class="achievement">國際影展獲獎</span>
-                            <span class="achievement">票房冠軍導演</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="alumni-card">
-                    <div class="alumni-image">
-                        <img src="../images/alumni-3.jpg" alt="傑出校友">
-                    </div>
-                    <div class="alumni-info">
-                        <h3>企業界菁英</h3>
-                        <p class="alumni-title">跨國企業亞太區總裁</p>
-                        <p class="alumni-quote">"世新的傳播背景讓我在企業管理中更懂得溝通與領導的藝術。"</p>
-                        <div class="alumni-achievements">
-                            <span class="achievement">年度企業家</span>
-                            <span class="achievement">管理創新獎</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Alumni Network -->
-    <section class="alumni-network">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">校友網絡</h2>
-                <p class="section-subtitle">連結全球世新人的力量</p>
-            </div>
-            
-            <div class="network-content">
-                <div class="network-info">
-                    <h3>全球校友會</h3>
-                    <p>世新大學校友遍布全球，在各地成立校友會，定期舉辦聚會活動，維繫校友情誼，並為在學學弟妹提供職涯指導與實習機會。</p>
+                <div class="colleges-grid">
                     
-                    <div class="network-features">
-                        <div class="feature-item">
-                            <i class="fas fa-handshake"></i>
-                            <div>
-                                <h4>職涯輔導</h4>
-                                <p>資深校友提供職涯諮詢與就業機會</p>
-                            </div>
-                        </div>
-                        
-                        <div class="feature-item">
-                            <i class="fas fa-network-wired"></i>
-                            <div>
-                                <h4>人脈網絡</h4>
-                                <p>建立跨領域的專業人脈關係</p>
-                            </div>
-                        </div>
-                        
-                        <div class="feature-item">
-                            <i class="fas fa-calendar-alt"></i>
-                            <div>
-                                <h4>定期聚會</h4>
-                                <p>舉辦各類校友活動與專業講座</p>
-                            </div>
-                        </div>
-                        
-                        <div class="feature-item">
-                            <i class="fas fa-graduation-cap"></i>
-                            <div>
-                                <h4>回饋母校</h4>
-                                <p>支持學校發展與學弟妹成長</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="network-map">
-                    <h3>校友分布</h3>
-                    <div class="regions-list">
-                        <div class="region-item">
-                            <h4>台灣地區</h4>
-                            <p>85,000+ 校友</p>
-                        </div>
-                        <div class="region-item">
-                            <h4>大中華地區</h4>
-                            <p>8,000+ 校友</p>
-                        </div>
-                        <div class="region-item">
-                            <h4>東南亞地區</h4>
-                            <p>4,000+ 校友</p>
-                        </div>
-                        <div class="region-item">
-                            <h4>歐美地區</h4>
-                            <p>3,000+ 校友</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Alumni Services -->
-    <section class="alumni-services bg-light">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">校友服務</h2>
-                <p class="section-subtitle">持續關懷與支持校友發展</p>
-            </div>
-            
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-briefcase"></i>
-                    </div>
-                    <h3>職涯發展</h3>
-                    <p>提供職涯諮詢、就業媒合、轉職輔導等服務</p>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-book-open"></i>
-                    </div>
-                    <h3>終身學習</h3>
-                    <p>開設進修課程、專業講座、證照輔導等</p>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-users"></i>
-                    </div>
-                    <h3>聯誼活動</h3>
-                    <p>定期舉辦校友聚會、專業交流、文化活動</p>
-                </div>
-                
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-heart"></i>
-                    </div>
-                    <h3>關懷服務</h3>
-                    <p>提供校友急難救助、健康關懷等支持</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Join Alumni -->
-    <section class="join-alumni">
-        <div class="container">
-            <div class="join-content">
-                <h2>加入校友會</h2>
-                <p>無論您身在何處，都歡迎加入世新大學校友會，與全球世新人保持聯繫</p>
-                
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <div>
-                            <h4>校友服務信箱</h4>
-                            <p>alumni@mail.shu.edu.tw</p>
+                    <div class="college-card">
+                        <div class="college-image"><img src="../images/alumni/li-ssu-tuan.jpg" alt="李四端"></div>
+                        <div class="college-content">
+                            <h4 class="college-title">李四端</h4>
+                            <p class="college-description"><strong>廣電科</strong><br>資深新聞主播、主持人，曾獲多座金鐘獎肯定，現為MOMOTV董事長。</p>
                         </div>
                     </div>
                     
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <div>
-                            <h4>校友服務專線</h4>
-                            <p>(02) 2236-8225 分機 83456</p>
+                    <div class="college-card">
+                        <div class="college-image"><img src="../images/alumni/shen-chun-hua.jpg" alt="沈春華"></div>
+                        <div class="college-content">
+                            <h4 class="college-title">沈春華</h4>
+                            <p class="college-description"><strong>廣電科</strong><br>知名新聞主播與主持人，曾榮獲13座金鐘獎，為台灣新聞界代表性人物。</p>
+                        </div>
+                    </div>
+
+                    <div class="college-card">
+                        <div class="college-image"><img src="../images/alumni/lee-yen-chiu.jpg" alt="李艷秋"></div>
+                        <div class="college-content">
+                            <h4 class="college-title">李艷秋</h4>
+                            <p class="college-description"><strong>新聞科</strong><br>資深新聞主播、評論員，以其犀利專業的風格著稱，影響力深遠。</p>
+                        </div>
+                    </div>
+
+                    <div class="college-card">
+                        <div class="college-image"><img src="../images/alumni/tsui-li-hsin.jpg" alt="崔麗心"></div>
+                        <div class="college-content">
+                            <h4 class="college-title">崔麗心</h4>
+                            <p class="college-description"><strong>新聞科</strong><br>前知名電視節目主持人，曾獲金鐘獎，形象清新，深受觀眾喜愛。</p>
+                        </div>
+                    </div>
+
+                    <div class="college-card">
+                        <div class="college-image"><img src="../images/alumni/chen-hao.jpg" alt="陳浩"></div>
+                        <div class="college-content">
+                            <h4 class="college-title">陳浩</h4>
+                            <p class="college-description"><strong>新聞系</strong><br>資深媒體人，曾任聯合晚報總主筆，現為卓越新聞獎基金會執行長。</p>
                         </div>
                     </div>
                     
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <div>
-                            <h4>校友服務中心</h4>
-                            <p>116台北市文山區木柵路一段17巷1號</p>
+                    <div class="college-card">
+                        <div class="college-image"><img src="../images/alumni/huang-chao-ming.jpg" alt="黃肇松"></div>
+                        <div class="college-content">
+                            <h4 class="college-title">黃肇松</h4>
+                            <p class="college-description"><strong>編輯採訪科</strong><br>曾任中央通訊社董事長、總統府國策顧問，在新聞界貢獻卓著。</p>
                         </div>
                     </div>
-                </div>
-                
-                <div class="join-buttons">
-                    <a href="#" class="btn btn-primary">加入校友會</a>
-                    <a href="#" class="btn btn-secondary">更新聯絡資訊</a>
+                    
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- CTA Section -->
-    <section class="cta">
-        <div class="container">
-            <div class="cta-content">
-                <h2 class="cta-title">成為下一位傑出校友</h2>
-                <p class="cta-description">加入世新大學，在這裡開始您的成功之路</p>
-                <div class="cta-buttons">
-                    <a href="admissions.html" class="btn btn-primary">立即申請</a>
-                    <a href="contact.html" class="btn btn-secondary">聯絡我們</a>
+        <!-- Section: Entertainment Icons -->
+        <section id="entertainment-icons" class="colleges" style="background-color: #f8f9fa;">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">影視藝文界</h2>
+                    <p class="section-subtitle">才華洋溢，星光熠熠，他們是定義時代的娛樂巨星</p>
+                </div>
+                <div class="colleges-grid">
+
+                    <div class="college-card">
+                        <div class="college-image"><img src="../images/alumni/tsai-kang-yung.jpg" alt="蔡康永"></div>
+                        <div class="college-content">
+                            <h4 class="college-title">蔡康永</h4>
+                            <p class="college-description"><strong>電影編導班</strong><br>知名主持人、作家、導演，以其機智與溫暖的風格，成為華人世界極具影響力的文化人。</p>
+                        </div>
+                    </div>
+
+                    <div class="college-card">
+                        <div class="college-image"><img src="../images/alumni/sandrine-pinna.jpg" alt="張榕容"></div>
+                        <div class="college-content">
+                            <h4 class="college-title">張榕容</h4>
+                            <p class="college-description"><strong>廣電系電影組</strong><br>亞太影展、台北電影節雙料影后，演技精湛，是台灣電影界代表性女演員。</p>
+                        </div>
+                    </div>
+
+                    <div class="college-card">
+                        <div class="college-image"><img src="../images/alumni/hsu-chih-yen.jpg" alt="許智彥"></div>
+                        <div class="college-content">
+                            <h4 class="college-title">許智彥</h4>
+                            <p class="college-description"><strong>廣電系電影組</strong><br>新銳電影、MV導演，曾以電影《誰先愛上他的》獲金馬獎，風格獨特。</p>
+                        </div>
+                    </div>
+                    
+                    <div class="college-card">
+                        <div class="college-image"><img src="../images/alumni/lin-shu-yu.jpg" alt="林書宇"></div>
+                        <div class="college-content">
+                            <h4 class="college-title">林書宇</h4>
+                            <p class="college-description"><strong>廣電系電影組</strong><br>知名電影導演、編劇，作品《九降風》、《百日告別》等屢獲國內外大獎肯定。</p>
+                        </div>
+                    </div>
+
+                    <div class="college-card">
+                        <div class="college-image"><img src="../images/alumni/ella-chen.jpg" alt="陳嘉樺 Ella"></div>
+                        <div class="college-content">
+                            <h4 class="college-title">陳嘉樺 Ella</h4>
+                            <p class="college-description"><strong>二專部醫務管理科</strong><br>亞洲女子天團S.H.E成員，影視歌三棲全方位藝人，國民度極高。</p>
+                        </div>
+                    </div>
+
+                    <div class="college-card">
+                        <div class="college-image"><img src="../images/alumni/nick-chou.jpg" alt="周湯豪"></div>
+                        <div class="college-content">
+                            <h4 class="college-title">周湯豪</h4>
+                            <p class="college-description"><strong>公關廣告系</strong><br>知名歌手、音樂製作人、演員，以其時尚的音樂風格與個人魅力，深受年輕世代喜愛。</p>
+                        </div>
+                    </div>
+
+                    <div class="college-card">
+                        <div class="college-image"><img src="../images/alumni/lala-hsu.jpg" alt="徐佳瑩"></div>
+                        <div class="college-content">
+                            <h4 class="college-title">徐佳瑩</h4>
+                            <p class="college-description"><strong>觀光系</strong><br>金曲獎最佳國語女歌手，華語樂壇指標性創作才女，作品傳唱度極高。</p>
+                        </div>
+                    </div>
+
+                    <div class="college-card">
+                        <div class="college-image"><img src="../images/alumni/wu-hsing-kuo.jpg" alt="吳興國"></div>
+                        <div class="college-content">
+                            <h4 class="college-title">吳興國</h4>
+                            <p class="college-description"><strong>影劇科</strong><br>當代傳奇劇場藝術總監，將傳統京劇與現代劇場結合，是國際級的表演藝術家。</p>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+
+        <!-- Section: Business Leaders -->
+        <section id="business-leaders" class="colleges">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">企業領袖</h2>
+                    <p class="section-subtitle">運籌帷幄，決勝千里，他們是引領產業發展的商界菁英</p>
+                </div>
+                <div class="colleges-grid">
+                    
+                    <div class="college-card">
+                        <div class="college-image"><img src="../images/alumni/chang-chen-lan.jpg" alt="張鎮安"></div>
+                        <div class="college-content">
+                            <h4 class="college-title">張鎮安</h4>
+                            <p class="college-description"><strong>圖文傳播系</strong><br>和碩聯合科技公司執行長，帶領公司成為全球頂尖的電子代工服務企業。</p>
+                        </div>
+                    </div>
+                    
+                    <div class="college-card">
+                        <div class="college-image"><img src="../images/alumni/shao-yu-lin.jpg" alt="邵玉琴"></div>
+                        <div class="college-content">
+                            <h4 class="college-title">邵玉琴</h4>
+                            <p class="college-description"><strong>公共關係科</strong><br>曾任台灣萊雅公司總裁，為美妝產業的傑出專業經理人。</p>
+                        </div>
+                    </div>
+
+                    <div class="college-card">
+                        <div class="college-image"><img src="../images/alumni/liu-hsi-song.jpg" alt="劉熙HomeScreen"></div>
+                        <div class="college-content">
+                            <h4 class="college-title">劉熙HomeScreen</h4>
+                            <p class="college-description"><strong>圖文傳播系</strong><br>台灣賓士(Mercedes-Benz)前總裁，在汽車產業擁有卓越的領導與行銷能力。</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Section: Public Figures -->
+        <section id="public-figures" class="colleges" style="background-color: #f8f9fa;">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">政法界菁英</h2>
+                    <p class="section-subtitle">為民喉舌，擘劃方針，他們是推動社會前進的重要力量</p>
+                </div>
+                <div class="colleges-grid">
+                    
+                    <div class="college-card">
+                        <div class="college-image"><img src="../images/alumni/chiang-shuo-ping.jpg" alt="蔣碩平"></div>
+                        <div class="college-content">
+                            <h4 class="college-title">蔣碩平</h4>
+                            <p class="college-description"><strong>法律系</strong><br>理律法律事務所資深合夥人、前執行長，臺灣法界重量級人物。</p>
+                        </div>
+                    </div>
+                    
+                    <div class="college-card">
+                        <div class="college-image"><img src="../images/alumni/yao-wen-chih.jpg" alt="姚文智"></div>
+                        <div class="college-content">
+                            <h4 class="college-title">姚文智</h4>
+                            <p class="college-description"><strong>廣電系</strong><br>曾任立法委員、新聞局局長，現為電影公司董事長，跨足政治與文化領域。</p>
+                        </div>
+                    </div>
+
+                    <div class="college-card">
+                        <div class="college-image"><img src="../images/alumni/cheng-li-wen.jpg" alt="鄭麗文"></div>
+                        <div class="college-content">
+                            <h4 class="college-title">鄭麗文</h4>
+                            <p class="college-description"><strong>新聞研究所</strong><br>曾任立法委員、行政院發言人，問政犀利，是知名的政治人物。</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        
+        <!-- Alumni Association -->
+        <section id="alumni-services" class="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">世新大學校友會</h2>
+                    <p class="section-subtitle">凝聚全球校友力量，共創榮耀與未來</p>
+                </div>
+                <p class="text-center" style="max-width: 800px; margin: -2rem auto 3rem auto; color: #666;">
+                    世新大學校友會是連結全球十萬校友的重要平台。我們不僅維繫校友情誼，更致力於整合龐大的人脈與資源，為在校生提供支持，為畢業校友創造價值，共同擦亮「世新人」這塊金字招牌。
+                </p>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-network-wired"></i></div>
+                        <h3 class="feature-title">人脈網絡</h3>
+                        <p class="feature-description">透過全球各地的分會與線上社群，建立跨領域、跨世代的強大人脈網絡，促進校友間的交流與合作。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-briefcase"></i></div>
+                        <h3 class="feature-title">職涯發展</h3>
+                        <p class="feature-description">定期舉辦企業參訪、職涯講座，並提供就業媒合與 mentorship 計畫，全力支持校友與在校生的職涯發展。</p>
+                    </div>
+                    <div class="feature-card">
+                        <div class="feature-icon"><i class="fas fa-book-open"></i></div>
+                        <h3 class="feature-title">終身學習</h3>
+                        <p class="feature-description">開辦多元化的進修課程與專業講座，鼓勵校友持續學習、與時俱進，保持在職場上的頂尖競爭力。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- CTA Section -->
+        <section class="cta">
+            <div class="container">
+                <div class="cta-content">
+                    <h2 class="cta-title">成為下一位傑出校友</h2>
+                    <p class="cta-description">你的潛力無限，世新是你夢想的起點。歡迎加入我們，在這裡書寫屬於你的輝煌篇章！</p>
+                    <div class="cta-buttons">
+                        <a href="admissions.html" class="btn btn-primary">探索入學管道</a>
+                        <a href="contact.html" class="btn btn-secondary">聯絡招生中心</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
 
     <!-- Footer -->
     <footer class="footer">
@@ -490,51 +425,65 @@
                         培育專業傳播人才的搖籃
                     </p>
                     <div class="footer-social">
-                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="social-link"><i class="fab fa-line"></i></a>
+                        <a href="https://www.facebook.com/ShihHsinU" target="_blank" rel="noopener" class="social-link" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.youtube.com/c/ShihHsinU" target="_blank" rel="noopener" class="social-link" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/shih.hsin.u" target="_blank" rel="noopener" class="social-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link" aria-label="Line"><i class="fab fa-line"></i></a>
                     </div>
                 </div>
-                
                 <div class="footer-section">
                     <h3 class="footer-title">快速連結</h3>
                     <ul class="footer-links">
-                        <li><a href="../index.html">首頁</a></li>
                         <li><a href="about.html">關於世新</a></li>
                         <li><a href="academics.html">學院系所</a></li>
                         <li><a href="admissions.html">招生資訊</a></li>
+                        <li><a href="campus-life.html">校園生活</a></li>
                     </ul>
                 </div>
-                
                 <div class="footer-section">
-                    <h3 class="footer-title">學院系所</h3>
+                    <h3 class="footer-title">校友專區</h3>
                     <ul class="footer-links">
-                        <li><a href="academics.html#journalism">新聞傳播學院</a></li>
-                        <li><a href="academics.html#management">管理學院</a></li>
-                        <li><a href="academics.html#humanities">人文社會學院</a></li>
-                        <li><a href="academics.html#law">法律學院</a></li>
+                        <li><a href="#">校友總會</a></li>
+                        <li><a href="#">校友服務</a></li>
+                        <li><a href="#">校友捐贈</a></li>
+                        <li><a href="#">聯絡我們</a></li>
                     </ul>
                 </div>
-                
                 <div class="footer-section">
                     <h3 class="footer-title">聯絡資訊</h3>
                     <div class="footer-contact">
-                        <p><i class="fas fa-map-marker-alt"></i> 116台北市文山區木柵路一段17巷1號</p>
-                        <p><i class="fas fa-phone"></i> (02) 2236-8225</p>
-                        <p><i class="fas fa-envelope"></i> pr@mail.shu.edu.tw</p>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>116台北市文山區木柵路一段17巷1號</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>(02) 2236-8225</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>pr@mail.shu.edu.tw</span>
+                        </div>
                     </div>
                 </div>
             </div>
-            
             <div class="footer-bottom">
-                <p>&copy; 2024 世新大學 Shih Hsin University. All rights reserved.</p>
+                 <div class="footer-copyright">
+                    <p>&copy; 2024 世新大學資訊網. All rights reserved. | 本網站為教育用途建置</p>
+                </div>
+                <div class="footer-links-bottom">
+                    <a href="#">隱私政策</a>
+                    <a href="#">使用條款</a>
+                </div>
             </div>
         </div>
     </footer>
-
+    
+    <button id="backToTop" class="back-to-top" aria-label="回到頂部">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
     <!-- JavaScript -->
     <script src="../js/main.js"></script>
 </body>
 </html>
-
