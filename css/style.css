@@ -1256,3 +1256,122 @@ button:focus,
     outline: 3px solid #005fcc; /* 高對比的藍色 */
     outline-offset: 2px;
 }```
+
+
+/* Performance Optimizations */
+/* ========================= */
+
+/* Lazy loading for images */
+img {
+    loading: lazy;
+}
+
+/* Optimize font loading */
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-display: swap;
+}
+
+/* Reduce layout shifts */
+.hero-background {
+    aspect-ratio: 16/9;
+    min-height: 400px;
+}
+
+/* Optimize animations */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* Critical CSS for above-the-fold content */
+.header {
+    contain: layout style;
+}
+
+.hero {
+    contain: layout style;
+}
+
+/* Optimize scrolling performance */
+.nav-menu {
+    will-change: transform;
+}
+
+/* Preload critical resources */
+.hero-background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+    z-index: 1;
+}
+
+/* Optimize video embeds */
+iframe {
+    loading: lazy;
+}
+
+/* Improve Core Web Vitals */
+.feature-card,
+.college-card {
+    contain: layout style;
+}
+
+/* Optimize images for different screen sizes */
+@media (max-width: 768px) {
+    .hero-background {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+/* Add smooth scrolling for better UX */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Optimize button interactions */
+.btn {
+    touch-action: manipulation;
+}
+
+/* Improve accessibility */
+.skip-link:focus {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #000;
+    color: #fff;
+    padding: 8px 16px;
+    text-decoration: none;
+    z-index: 9999;
+}
+
+/* Add focus indicators for better accessibility */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
+    outline: 2px solid #8B1538;
+    outline-offset: 2px;
+}
+
+/* Optimize for touch devices */
+@media (hover: none) and (pointer: coarse) {
+    .nav-item:hover .dropdown-menu {
+        display: none;
+    }
+    
+    .nav-item.active .dropdown-menu {
+        display: block;
+    }
+}
+
