@@ -7,4 +7,4 @@ Allow: /
 
 # ===============================================================
 # 指向網站地圖 XML 檔案的路徑 (Sitemap file location)
-Sitemap: https://a103210095.github.io/shih-hsin-website/sitemap.xml
+Sitemap: https://shu-edu-tw.github.io/home/sitemap.xml

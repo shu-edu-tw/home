@@ -3,7 +3,7 @@
 
   <!-- 首頁 (Homepage) -->
   <url>
-    <loc>https://a103210095.github.io/shih-hsin-website/index.html</loc>
+    <loc>https://shu-edu-tw.github.io/home/index.html</loc>
     <lastmod>2025-08-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
@@ -11,7 +11,7 @@
 
   <!-- 關於世新 (About) -->
   <url>
-    <loc>https://a103210095.github.io/shih-hsin-website/pages/about.html</loc>
+    <loc>https://shu-edu-tw.github.io/home/pages/about.html</loc>
     <lastmod>2025-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -19,7 +19,7 @@
 
   <!-- 學院系所 (Academics) -->
   <url>
-    <loc>https://a103210095.github.io/shih-hsin-website/pages/academics.html</loc>
+    <loc>https://shu-edu-tw.github.io/home/pages/academics.html</loc>
     <lastmod>2025-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
@@ -27,7 +27,7 @@
 
   <!-- 師資介紹 (Faculty) -->
   <url>
-    <loc>https://a103210095.github.io/shih-hsin-website/pages/faculty.html</loc>
+    <loc>https://shu-edu-tw.github.io/home/pages/faculty.html</loc>
     <lastmod>2025-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -35,7 +35,7 @@
 
   <!-- 課程資訊 (Courses) -->
   <url>
-    <loc>https://a103210095.github.io/shih-hsin-website/pages/courses.html</loc>
+    <loc>https://shu-edu-tw.github.io/home/pages/courses.html</loc>
     <lastmod>2025-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -43,7 +43,7 @@
 
   <!-- 招生資訊 (Admissions) -->
   <url>
-    <loc>https://a103210095.github.io/shih-hsin-website/pages/admissions.html</loc>
+    <loc>https://shu-edu-tw.github.io/home/pages/admissions.html</loc>
     <lastmod>2025-08-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -51,7 +51,7 @@
 
   <!-- 校園生活 (Campus Life) -->
   <url>
-    <loc>https://a103210095.github.io/shih-hsin-website/pages/campus-life.html</loc>
+    <loc>https://shu-edu-tw.github.io/home/pages/campus-life.html</loc>
     <lastmod>2025-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -59,7 +59,7 @@
 
   <!-- 傑出校友 (Alumni) -->
   <url>
-    <loc>https://a103210095.github.io/shih-hsin-website/pages/alumni.html</loc>
+    <loc>https://shu-edu-tw.github.io/home/pages/alumni.html</loc>
     <lastmod>2025-08-17</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
@@ -67,7 +67,7 @@
 
   <!-- 最新消息 (News) -->
   <url>
-    <loc>https://a103210095.github.io/shih-hsin-website/pages/news.html</loc>
+    <loc>https://shu-edu-tw.github.io/home/pages/news.html</loc>
     <lastmod>2025-08-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -75,7 +75,7 @@
 
   <!-- 聯絡我們 (Contact) -->
   <url>
-    <loc>https://a103210095.github.io/shih-hsin-website/pages/contact.html</loc>
+    <loc>https://shu-edu-tw.github.io/home/pages/contact.html</loc>
     <lastmod>2025-08-17</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
