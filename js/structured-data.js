@@ -7,9 +7,9 @@ const organizationSchema = {
     "@type": "EducationalOrganization",
     "name": "世新大學",
     "alternateName": ["Shih Hsin University", "世新", "SHU"],
-    "url": "https://your-username.github.io/shih-hsin-website/",
-    "logo": "https://your-username.github.io/shih-hsin-website/images/shu-logo.png",
-    "image": "https://your-username.github.io/shih-hsin-website/images/campus-building.jpg",
+    "url": "https://shu-edu-tw.github.io/home/",
+    "logo": "https://shu-edu-tw.github.io/home/images/shu-logo.png",
+    "image": "https://shu-edu-tw.github.io/home/images/campus-building.jpg",
     "description": "世新大學創立於1956年，由新聞界泰斗成舍我先生創辦，是台灣第一所以傳播教育為特色的高等學府。秉持「學校為學生而辦，學生為讀書而來」的辦學理念，致力培養品德與智慧並重、理論與實務合一的專業人才。",
     "foundingDate": "1956",
     "founder": {
@@ -110,7 +110,7 @@ const websiteSchema = {
     "@type": "WebSite",
     "name": "世新大學官方網站",
     "alternateName": "Shih Hsin University Official Website",
-    "url": "https://your-username.github.io/shih-hsin-website/",
+    "url": "https://shu-edu-tw.github.io/home/",
     "description": "世新大學官方網站，提供學校介紹、招生資訊、學院系所、校園生活、最新消息等完整資訊。",
     "inLanguage": "zh-TW",
     "publisher": {
@@ -119,7 +119,7 @@ const websiteSchema = {
     },
     "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://your-username.github.io/shih-hsin-website/search?q={search_term_string}",
+        "target": "https://shu-edu-tw.github.io/home/search?q={search_term_string}",
         "query-input": "required name=search_term_string"
     }
 };
@@ -133,7 +133,7 @@ const breadcrumbSchema = {
             "@type": "ListItem",
             "position": 1,
             "name": "首頁",
-            "item": "https://your-username.github.io/shih-hsin-website/"
+            "item": "https://shu-edu-tw.github.io/home/"
         }
     ]
 };
@@ -208,7 +208,7 @@ function updateBreadcrumbSchema(pageTitle, pageUrl) {
                 "@type": "ListItem",
                 "position": 1,
                 "name": "首頁",
-                "item": "https://your-username.github.io/shih-hsin-website/"
+                "item": "https://shu-edu-tw.github.io/home/"
             },
             {
                 "@type": "ListItem",
@@ -252,7 +252,7 @@ function addArticleSchema(title, description, publishDate, imageUrl) {
             "name": "世新大學",
             "logo": {
                 "@type": "ImageObject",
-                "url": "https://your-username.github.io/shih-hsin-website/images/shu-logo.png"
+                "url": "https://shu-edu-tw.github.io/home/images/shu-logo.png"
             }
         },
         "mainEntityOfPage": {
