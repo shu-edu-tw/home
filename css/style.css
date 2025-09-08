@@ -9,9 +9,7 @@
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
+
 
 body {
     font-family: 'Noto Sans TC', sans-serif;
@@ -1279,13 +1277,7 @@ img {
 }
 
 /* Optimize animations */
-@media (prefers-reduced-motion: reduce) {
-    * {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
-    }
-}
+
 
 /* Critical CSS for above-the-fold content */
 .header {
@@ -1333,9 +1325,7 @@ iframe {
 }
 
 /* Add smooth scrolling for better UX */
-html {
-    scroll-behavior: smooth;
-}
+
 
 /* Optimize button interactions */
 .btn {
@@ -1343,16 +1333,7 @@ html {
 }
 
 /* Improve accessibility */
-.skip-link:focus {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    background: #000;
-    color: #fff;
-    padding: 8px 16px;
-    text-decoration: none;
-    z-index: 9999;
-}
+
 
 /* Add focus indicators for better accessibility */
 a:focus,
@@ -1372,6 +1353,20 @@ select:focus {
     
     .nav-item.active .dropdown-menu {
         display: block;
+    }
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
     }
 }
 
