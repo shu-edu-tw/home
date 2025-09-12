@@ -67,7 +67,6 @@ img {
     transition: all 0.3s ease;
     border: 2px solid transparent;
     text-decoration: none;
-    touch-action: manipulation;
 }
 
 .btn-primary {
@@ -118,7 +117,6 @@ img {
     right: 0;
     z-index: 1000;
     transition: background-color 0.3s ease, box-shadow 0.3s ease, padding 0.3s ease;
-    contain: layout style;
 }
 
 .header.scrolled {
@@ -153,7 +151,6 @@ img {
 
 .nav-menu {
     display: flex;
-    will-change: transform;
 }
 
 .nav-list {
@@ -248,7 +245,6 @@ img {
     text-align: center;
     color: white;
     overflow: hidden;
-    contain: layout style;
 }
 
 .hero-background {
@@ -259,19 +255,6 @@ img {
     height: 100%;
     background: linear-gradient(135deg, #8B1538 0%, #6B1028 100%);
     z-index: -2;
-    aspect-ratio: 16/9;
-    min-height: 400px;
-}
-
-.hero-background::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
-    z-index: 1;
 }
 
 .hero-overlay {
@@ -366,7 +349,6 @@ img {
     text-align: center;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    contain: layout style;
 }
 
 .feature-card:hover {
@@ -444,7 +426,6 @@ img {
     overflow: hidden;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
-    contain: layout style;
 }
 
 .college-card:hover {
@@ -1235,42 +1216,13 @@ img {
     }
 }
 
-/* =================================== */
-/* Accessibility, Performance, etc.   */
-/* =================================== */
-
-html {
-    scroll-behavior: smooth;
-}
-
-/* Optimize font loading */
-@font-face {
-    font-family: 'Noto Sans TC';
-    font-display: swap;
-}
-
-/* Lazy loading for images and iframes */
-img, iframe {
-    loading: lazy;
-}
-
-/* Optimize images for different screen sizes */
-@media (max-width: 768px) {
-    .hero-background {
-        background-size: cover;
-        background-position: center;
-    }
-}
-
-/* Accessibility & Reduced Motion */
+/* Accessibility & Print */
 @media (prefers-reduced-motion: reduce) {
-    html {
-        scroll-behavior: auto;
-    }
     * {
         animation-duration: 0.01ms !important;
         animation-iteration-count: 1 !important;
         transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
     }
 }
 
@@ -1291,17 +1243,104 @@ img, iframe {
     top: 6px; /* 獲得焦點時顯示 */
 }
 
-/* Consistent Focus Styles for Accessibility */
+/* Focus Styles for Accessibility */
 a:focus,
 button:focus,
-input:focus,
-textarea:focus,
-select:focus,
 .btn:focus,
 .nav-link:focus,
 .social-link:focus,
 .college-link:focus,
 .news-link:focus {
+    outline: 3px solid #005fcc; /* 高對比的藍色 */
+    outline-offset: 2px;
+}```
+
+
+/* Performance Optimizations */
+/* ========================= */
+
+/* Lazy loading for images */
+img {
+    loading: lazy;
+}
+
+/* Optimize font loading */
+@font-face {
+    font-family: 'Noto Sans TC';
+    font-display: swap;
+}
+
+/* Reduce layout shifts */
+.hero-background {
+    aspect-ratio: 16/9;
+    min-height: 400px;
+}
+
+/* Optimize animations */
+
+
+/* Critical CSS for above-the-fold content */
+.header {
+    contain: layout style;
+}
+
+.hero {
+    contain: layout style;
+}
+
+/* Optimize scrolling performance */
+.nav-menu {
+    will-change: transform;
+}
+
+/* Preload critical resources */
+.hero-background::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+    z-index: 1;
+}
+
+/* Optimize video embeds */
+iframe {
+    loading: lazy;
+}
+
+/* Improve Core Web Vitals */
+.feature-card,
+.college-card {
+    contain: layout style;
+}
+
+/* Optimize images for different screen sizes */
+@media (max-width: 768px) {
+    .hero-background {
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+/* Add smooth scrolling for better UX */
+
+
+/* Optimize button interactions */
+.btn {
+    touch-action: manipulation;
+}
+
+/* Improve accessibility */
+
+
+/* Add focus indicators for better accessibility */
+a:focus,
+button:focus,
+input:focus,
+textarea:focus,
+select:focus {
     outline: 2px solid #8B1538;
     outline-offset: 2px;
 }
@@ -1314,5 +1353,19 @@ select:focus,
     
     .nav-item.active .dropdown-menu {
         display: block;
+    }
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
     }
 }
