@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>學院系所 - 世新大學</title>
-    <meta name="description" content="探索世新大學四大專業學院：新聞傳播學院、管理學院、人文社會學院及法律學院。了解各學院特色、所有系所介紹，以及理論與實務並重的教學理念。">
-    <meta name="keywords" content="世新大學,學院系所,新聞傳播學院,管理學院,人文社會學院,法律學院,大學科系">
+    <title>學院系所介紹 | 世新大學新聞傳播、管理、人文、法律四大學院</title>
+    <meta name="description" content="探索世新大學四大專業學院：新聞傳播學院、管理學院、人文社會學院及法律學院。了解各學院特色、所有系所介紹，以及理論與實務並重的教學理念，找到你的傳播科系或台北私立大學推薦首選。">
+    <meta name="keywords" content="世新大學,學院系所,新聞傳播學院,管理學院,人文社會學院,法律學院,大學科系,傳播科系">
     
     <!-- Open Graph Meta Tags -->
     <meta property="og:title" content="學院系所 - 世新大學">
     <meta property="og:description" content="世新大學設有四大學院，提供多元專業領域，培育理論與實務兼具的全方位人才。">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://shu-edu-tw.github.io/home/pages/academics.html">
-    <meta property="og:image" content="https://shu-edu-tw.github.io/home/images/academics-hero.jpg">
+    <meta property="og:image" content="https://shu-edu-tw.github.io/home/images/academics-hero.webp">
     
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
@@ -45,7 +45,7 @@
             <div class="container">
                 <div class="nav-brand">
                     <a href="../index.html" class="logo">
-                        <img src="../images/shu-logo.png" alt="世新大學校徽" class="logo-img">
+                        <img src="../images/shu-logo.webp" alt="世新大學校徽" class="logo-img">
                         <span class="logo-text">世新大學</span>
                     </a>
                 </div>
@@ -108,7 +108,7 @@
     <main id="main-content">
         <!-- Page Header -->
         <section class="hero" style="height: 60vh; min-height: 450px;">
-             <div class="hero-background" style="background-image: url('../images/Banner.jpg'); background-size: cover; background-position: center;">
+             <div class="hero-background" style="background-image: url('../images/Banner.webp'); background-size: cover; background-position: center;">
                 <div class="hero-overlay"></div>
             </div>
             <div class="container">
@@ -172,12 +172,12 @@
             <div class="container">
                 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 3rem; margin-bottom: 4rem;">
                     <div style="flex: 1 1 400px;">
-                        <img src="../images/college-journalism.jpg" alt="新聞傳播學院的學生正在專業攝影棚內進行實作拍攝" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.1);">
+                        <img src="../images/college-journalism.webp" alt="新聞傳播學院的學生正在專業攝影棚內進行實作拍攝" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.1);">
                     </div>
                     <div style="flex: 2 1 400px;">
                         <h2 class="section-title" style="text-align: left;">新聞傳播學院</h2>
                         <h3 style="font-weight: 400; color: #666; margin-top: -1rem; margin-bottom: 1.5rem;">College of Journalism and Communication</h3>
-                        <p>作為臺灣傳播教育的發源地與領導者，新聞傳播學院擁有最悠久的歷史與最完整的系所結構。我們致力於培育具備「全媒體、跨平台」能力的媒體專才。從傳統的新聞採寫、廣播電視製作，到最新的數位媒體、數據新聞與AI生成內容，我們提供最前瞻的課程與最頂尖的設備，讓學生站在媒體創新的最前線。</p>
+                        <p>作為台灣頂尖的傳播科系學府，新聞傳播學院擁有最悠久的歷史與最完整的系所結構。我們致力於培育具備「全媒體、跨平台」能力的媒體專才。從傳統的新聞採寫、廣播電視製作，到最新的數位媒體、數據新聞與AI生成內容，我們提供最前瞻的課程與最頂尖的設備，讓學生站在媒體創新的最前線。</p>
                         <a href="https://cjc.shu.edu.tw/" class="btn btn-primary" target="_blank" rel="noopener">前往學院網站</a>
                     </div>
                 </div>
@@ -249,7 +249,7 @@
                         <a href="https://smgmt.wp.shu.edu.tw/" class="btn btn-primary" target="_blank" rel="noopener">前往學院網站</a>
                     </div>
                     <div style="flex: 1 1 400px;">
-                        <img src="../images/college-management.jpg" alt="管理學院的學生們正在進行商業個案的互動討論" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.1);">
+                        <img src="../images/college-management.webp" alt="管理學院的學生們正在進行商業個案的互動討論" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.1);">
                     </div>
                 </div>
 
@@ -290,7 +290,7 @@
             <div class="container">
                 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 3rem; margin-bottom: 4rem;">
                     <div style="flex: 1 1 400px;">
-                        <img src="../images/college-humanities.jpg" alt="人文社會學院的學生沉浸在圖書館的書海中，專心閱讀" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.1);">
+                        <img src="../images/college-humanities.webp" alt="人文社會學院的學生沉浸在圖書館的書海中，專心閱讀" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.1);">
                     </div>
                      <div style="flex: 2 1 400px;">
                         <h2 class="section-title" style="text-align: left;">人文社會學院</h2>
@@ -342,7 +342,7 @@
                         <a href="https://lawsch.wp.shu.edu.tw/" class="btn btn-primary" target="_blank" rel="noopener">前往學院網站</a>
                     </div>
                     <div style="flex: 1 1 400px;">
-                        <img src="../images/college-law.jpg" alt="法律學院的模擬法庭，呈現出莊嚴的法學教育環境" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.1);">
+                        <img src="../images/college-law.webp" alt="法律學院的模擬法庭，呈現出莊嚴的法學教育環境" style="width: 100%; border-radius: 12px; box-shadow: 0 8px 30px rgba(0,0,0,0.1);">
                     </div>
                 </div>
                 <div class="section-header">
@@ -381,7 +381,7 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <div class="footer-logo">
-                        <img src="../images/shu-logo.png" alt="世新大學校徽" class="footer-logo-img">
+                        <img src="../images/shu-logo.webp" alt="世新大學校徽" class="footer-logo-img">
                         <span class="footer-logo-text">世新大學</span>
                     </div>
                     <p class="footer-description">
