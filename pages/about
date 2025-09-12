@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>關於世新 - 世新大學</title>
-    <meta name="description" content="深入了解世新大學的創校歷史、辦學理念、使命願景與卓越承諾。從1956年創校至今，世新大學已成為亞洲頂尖的傳播教育學府。">
+    <title>關於世新大學 | 創校歷史、辦學理念與校園地標</title>
+    <meta name="description" content="深入了解世新大學的創校歷史、辦學理念、使命願景與卓越承諾。從1956年創辦人成舍我先生創校至今，世新大學已成為亞洲頂尖的傳播教育學府。">
     <meta name="keywords" content="世新大學,關於世新,校史沿革,辦學理念,成舍我,使命願景,AI教學">
     
     <!-- Open Graph Meta Tags -->
@@ -12,7 +12,7 @@
     <meta property="og:description" content="深入了解世新大學的創校歷史、辦學理念、使命願景與卓越承諾。">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://shu-edu-tw.github.io/home/pages/about.html">
-    <meta property="og:image" content="https://shu-edu-tw.github.io/home/images/campus-overview.jpg">
+    <meta property="og:image" content="https://shu-edu-tw.github.io/home/images/campus-overview.webp">
     
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
@@ -45,7 +45,7 @@
             <div class="container">
                 <div class="nav-brand">
                     <a href="../index.html" class="logo">
-                        <img src="../images/shu-logo.png" alt="世新大學校徽" class="logo-img">
+                        <img src="../images/shu-logo.webp" alt="世新大學校徽" class="logo-img">
                         <span class="logo-text">世新大學</span>
                     </a>
                 </div>
@@ -110,7 +110,7 @@
     <main id="main-content">
         <!-- Hero Section for About Page -->
         <section class="hero" style="height: 60vh; min-height: 450px;">
-            <div class="hero-background" style="background-image: url('../images/Banner.jpg'); background-size: cover; background-position: center;">
+            <div class="hero-background" style="background-image: url('../images/Banner.webp'); background-size: cover; background-position: center;">
                 <div class="hero-overlay"></div>
             </div>
             <div class="container">
@@ -215,7 +215,7 @@
                             </div>
                             <h3 class="news-title">卓越時期</h3>
                             <p class="news-excerpt">
-                                積極推動數位化與國際化，斥資建置全媒體大樓、LVS智能攝製基地等頂尖設施，引領臺灣高等教育邁向數位創新的新紀元。
+                                積極推動數位化與國際化，斥資建置全媒體大樓、<a href="campus-life.html#learning-resources" class="college-link">LVS智能攝製基地</a>等頂尖設施，引領臺灣高等教育邁向數位創新的新紀元。
                             </p>
                         </div>
                     </article>
@@ -236,7 +236,7 @@
                         <p>這份對人才培育的渴望，促使他傾其所有創辦世新。他所揭櫫的「德智兼修，手腦並用」校訓，以及「學校為學生而辦，學生為讀書而來」的辦學原則，至今依然是我們奉行的圭臬，指引著世新在瞬息萬變的時代中，始終堅守教育的本質。</p>
                     </div>
                     <div style="flex: 1 1 300px; text-align: center;">
-                        <img src="../images/founder.jpg" alt="世新大學創辦人成舍我先生的黑白肖像照" style="width: 100%; max-width: 350px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);">
+                        <img src="../images/founder.webp" alt="世新大學創辦人成舍我先生的黑白肖像照" style="width: 100%; max-width: 350px; border-radius: 12px; box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);">
                     </div>
                 </div>
             </div>
@@ -252,7 +252,7 @@
                 <div class="colleges-grid">
                     <div class="college-card">
                         <div class="college-image">
-                            <img src="../images/shu-gate.jpg" alt="世新大學獨特的山洞口校門，車輛正從隧道中駛出">
+                            <img src="../images/shu-gate.webp" alt="世新大學獨特的山洞口校門，車輛正從隧道中駛出">
                         </div>
                         <div class="college-content">
                             <h3 class="college-title">山洞口校門</h3>
@@ -261,7 +261,7 @@
                     </div>
                     <div class="college-card">
                         <div class="college-image">
-                            <img src="../images/shu-building.jpg" alt="世新大學舍我樓，前方廣場有創辦人銅像">
+                            <img src="../images/shu-building.webp" alt="世新大學舍我樓，前方廣場有創辦人銅像">
                         </div>
                         <div class="college-content">
                             <h3 class="college-title">舍我樓</h3>
@@ -270,7 +270,7 @@
                     </div>
                     <div class="college-card">
                         <div class="college-image">
-                            <img src="../images/auditorium.jpg" alt="世新大學大禮堂的正面外觀">
+                            <img src="../images/auditorium.webp" alt="世新大學大禮堂的正面外觀">
                         </div>
                         <div class="college-content">
                             <h3 class="college-title">大禮堂</h3>
@@ -279,7 +279,7 @@
                     </div>
                     <div class="college-card">
                         <div class="college-image">
-                            <img src="../images/library.jpg" alt="世新大學圖書館內部，閱覽區有學生正在閱讀">
+                            <img src="../images/library.webp" alt="世新大學圖書館內部，閱覽區有學生正在閱讀">
                         </div>
                         <div class="college-content">
                             <h3 class="college-title">圖書館</h3>
@@ -322,7 +322,7 @@
                 </div>
                 <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 3rem;">
                     <div style="flex: 1 1 250px; text-align: center;">
-                        <img src="../images/shu-emblem.png" alt="世新大學校徽特寫，設計以一支筆被三個圓環環繞" style="width: 100%; max-width: 250px;">
+                        <img src="../images/shu-emblem.webp" alt="世新大學校徽特寫，設計以一支筆被三個圓環環繞" style="width: 100%; max-width: 250px;">
                     </div>
                     <div style="flex: 2 1 400px;">
                         <ul style="list-style: none; padding: 0;">
@@ -374,7 +374,7 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <div class="footer-logo">
-                        <img src="../images/shu-logo.png" alt="世新大學校徽" class="footer-logo-img">
+                        <img src="../images/shu-logo.webp" alt="世新大學校徽" class="footer-logo-img">
                         <span class="footer-logo-text">世新大學</span>
                     </div>
                     <p class="footer-description">
