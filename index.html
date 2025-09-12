@@ -387,34 +387,9 @@
                     <h2 class="section-title">最新消息</h2>
                     <p class="section-subtitle">掌握世新大學的即時動態</p>
                 </div>
-                <div class="news-grid">
-                    <article class="news-card">
-                        <div class="news-image"><img src="images/ai-smart-challenge.webp" alt="世新廣電系學生團隊榮獲AI廣播應用競賽首獎後與師長開心合影"></div>
-                        <div class="news-content">
-                            <div class="news-meta"><span class="news-date">2024年10月28日</span><span class="news-category">學術榮譽</span></div>
-                            <h3 class="news-title">世新廣電系勇奪「AI廣播應用 смарт Challenge」競賽首獎！</h3>
-                            <p class="news-excerpt">學生團隊憑藉創新作品《AI在身編》，在首屆競賽中擊敗眾多好手，勇奪首獎。</p>
-                            <a href="pages/news.html" class="news-link">閱讀更多</a>
-                        </div>
-                    </article>
-                    <article class="news-card">
-                        <div class="news-image"><img src="images/gianna-jun-ambassador.webp" alt="國際巨星全智賢擔任世新大學形象代言人，展現其專業與知性形象"></div>
-                        <div class="news-content">
-                            <div class="news-meta"><span class="news-date">2024年10月22日</span><span class="news-category">校園活動</span></div>
-                            <h3 class="news-title">國際巨星全智賢擔任世新大學形象代言人，展現國際影響力</h3>
-                            <p class="news-excerpt">韓國知名演員全智賢將以其專業形象，向全球傳達世新大學的辦學理念。</p>
-                            <a href="pages/news.html" class="news-link">閱讀更多</a>
-                        </div>
-                    </article>
-                    <article class="news-card">
-                        <div class="news-image"><img src="images/cheerleading-champion.webp" alt="世新大學啦啦隊在全國錦標賽中展現高難度托舉動作，慶祝三連霸"></div>
-                        <div class="news-content">
-                            <div class="news-meta"><span class="news-date">2024年10月15日</span><span class="news-category">校園活動</span></div>
-                            <h3 class="news-title">再創巔峰！世新大學啦啦隊勇奪全國錦標賽三連霸</h3>
-                            <p class="news-excerpt">憑藉著零失誤的高難度技巧與絕佳默契，世新啦啦隊再次稱霸全國，為校爭光。</p>
-                            <a href="pages/news.html" class="news-link">閱讀更多</a>
-                        </div>
-                    </article>
+                <div class="news-grid" id="home-news-grid">
+                    <!-- JavaScript will populate this area -->
+                    <p>正在載入最新消息...</p>
                 </div>
                 <div class="news-more">
                     <a href="pages/news.html" class="btn btn-outline">查看所有消息</a>
@@ -439,73 +414,73 @@
 
     <!-- Footer -->
     <footer class="footer">
-    <div class="container">
-        <div class="footer-content">
-            <div class="footer-section">
-                <div class="footer-logo">
-                    <img src="../images/shu-logo.webp" alt="世新大學校徽" class="footer-logo-img">
-                    <span class="footer-logo-text">世新大學</span>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="images/shu-logo.webp" alt="世新大學校徽" class="footer-logo-img">
+                        <span class="footer-logo-text">世新大學</span>
+                    </div>
+                    <p class="footer-description">
+                        德智兼修，手腦並用<br>
+                        培育專業傳播人才的搖籃
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/ShihHsinU" class="social-link" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.youtube.com/c/ShihHsinU" class="social-link" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.instagram.com/shih.hsin.u" class="social-link" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://openchat.line.me/tw/cover/OZfphxgmUFSsetROdMV01KVbef_EFwbOTWdkm7Rh8cJmOVurRb8AE2csHhc" class="social-link" target="_blank" rel="noopener" aria-label="Line"><i class="fab fa-line"></i></a>
+                    </div>
                 </div>
-                <p class="footer-description">
-                    德智兼修，手腦並用<br>
-                    培育專業傳播人才的搖籃
-                </p>
-                <div class="footer-social">
-                    <a href="https://www.facebook.com/ShihHsinU" class="social-link" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
-                    <a href="https://www.youtube.com/c/ShihHsinU" class="social-link" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
-                    <a href="https://www.instagram.com/shih.hsin.u" class="social-link" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                    <a href="https://openchat.line.me/tw/cover/OZfphxgmUFSsetROdMV01KVbef_EFwbOTWdkm7Rh8cJmOVurRb8AE2csHhc" class="social-link" target="_blank" rel="noopener" aria-label="Line"><i class="fab fa-line"></i></a>
+                <div class="footer-section">
+                    <h3 class="footer-title">網站導覽</h3>
+                    <ul class="footer-links">
+                        <li><a href="pages/about.html">關於世新</a></li>
+                        <li><a href="pages/academics.html">學院系所</a></li>
+                        <li><a href="pages/admissions.html">招生資訊</a></li>
+                        <li><a href="pages/campus-life.html">校園生活</a></li>
+                        <li><a href="pages/alumni.html">傑出校友</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">資源連結</h3>
+                    <ul class="footer-links">
+                        <li><a href="https://www.shu.edu.tw/" target="_blank" rel="noopener">世新大學官網</a></li>
+                        <li><a href="https://lib.shu.edu.tw/" target="_blank" rel="noopener">圖書館</a></li>
+                        <li><a href="https://course.shu.edu.tw/" target="_blank" rel="noopener">課程查詢系統</a></li>
+                        <li><a href="pages/contact.html">交通資訊</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3 class="footer-title">聯絡資訊</h3>
+                    <div class="footer-contact">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>116台北市文山區木柵路一段17巷1號</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>(02) 2236-8225</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>info@shu.edu.tw</span>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="footer-section">
-                <h3 class="footer-title">網站導覽</h3>
-                <ul class="footer-links">
-                    <li><a href="pages/about.html">關於世新</a></li>
-                    <li><a href="pages/academics.html">學院系所</a></li>
-                    <li><a href="pages/admissions.html">招生資訊</a></li>
-                    <li><a href="pages/campus-life.html">校園生活</a></li>
-                    <li><a href="pages/alumni.html">傑出校友</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h3 class="footer-title">資源連結</h3>
-                <ul class="footer-links">
-                    <li><a href="https://www.shu.edu.tw/" target="_blank" rel="noopener">世新大學官網</a></li>
-                    <li><a href="https://lib.shu.edu.tw/" target="_blank" rel="noopener">圖書館</a></li>
-                    <li><a href="https://course.shu.edu.tw/" target="_blank" rel="noopener">課程查詢系統</a></li>
-                    <li><a href="pages/contact.html">交通資訊</a></li>
-                </ul>
-            </div>
-            <div class="footer-section">
-                <h3 class="footer-title">聯絡資訊</h3>
-                <div class="footer-contact">
-                    <div class="contact-item">
-                        <i class="fas fa-map-marker-alt"></i>
-                        <span>116台北市文山區木柵路一段17巷1號</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-phone"></i>
-                        <span>(02) 2236-8225</span>
-                    </div>
-                    <div class="contact-item">
-                        <i class="fas fa-envelope"></i>
-                        <span>info@shu.edu.tw</span>
-                    </div>
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2024 世新大學資訊網. All rights reserved. | 本網站為教育用途建置</p>
+                </div>
+                <div class="footer-links-bottom">
+                    <a href="#">隱私政策</a>
+                    <a href="#">使用條款</a>
+                    <a href="pages/contact.html">聯絡我們</a>
                 </div>
             </div>
         </div>
-        <div class="footer-bottom">
-            <div class="footer-copyright">
-                <p>&copy; 2024 世新大學資訊網. All rights reserved. | 本網站為教育用途建置</p>
-            </div>
-            <div class="footer-links-bottom">
-                <a href="#">隱私政策</a>
-                <a href="#">使用條款</a>
-                <a href="pages/contact.html">聯絡我們</a>
-            </div>
-        </div>
-    </div>
-</footer>
+    </footer>
 
     <!-- Back to Top Button -->
     <button id="backToTop" class="back-to-top" aria-label="回到頂部">
