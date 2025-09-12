@@ -1243,7 +1243,19 @@ img {
     top: 6px; /* 獲得焦點時顯示 */
 }
 
-/* ========================= */
+/* Focus Styles for Accessibility */
+a:focus,
+button:focus,
+.btn:focus,
+.nav-link:focus,
+.social-link:focus,
+.college-link:focus,
+.news-link:focus {
+    outline: 3px solid #005fcc; /* 高對比的藍色 */
+    outline-offset: 2px;
+}```
+
+
 /* Performance Optimizations */
 /* ========================= */
 
@@ -1264,6 +1276,9 @@ img {
     min-height: 400px;
 }
 
+/* Optimize animations */
+
+
 /* Critical CSS for above-the-fold content */
 .header {
     contain: layout style;
@@ -1278,7 +1293,7 @@ img {
     will-change: transform;
 }
 
-/* Hero Overlay Style */
+/* Preload critical resources */
 .hero-background::before {
     content: '';
     position: absolute;
@@ -1309,22 +1324,23 @@ iframe {
     }
 }
 
+/* Add smooth scrolling for better UX */
+
+
 /* Optimize button interactions */
 .btn {
     touch-action: manipulation;
 }
+
+/* Improve accessibility */
+
 
 /* Add focus indicators for better accessibility */
 a:focus,
 button:focus,
 input:focus,
 textarea:focus,
-select:focus,
-.btn:focus,
-.nav-link:focus,
-.social-link:focus,
-.college-link:focus,
-.news-link:focus {
+select:focus {
     outline: 2px solid #8B1538;
     outline-offset: 2px;
 }
@@ -1343,4 +1359,13 @@ select:focus,
 
 html {
     scroll-behavior: smooth;
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
 }
